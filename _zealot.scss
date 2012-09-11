@@ -1,0 +1,453 @@
+// Zealot v0.1
+// Making SASS more awesome
+// Nathan Crank
+
+
+
+
+//////////////////////////////////////////////////////
+// Math
+//////////////////////////////////////////////////////
+
+// absolute negative (I know I made that term up) returns -|x|
+@function absNeg($value: 1) {
+  @return -1 * abs($value);
+}
+
+@function floatingTruncate($value: 3.141519265, $places: 2) {
+  @if $places < 0 { $places: abs($places); }
+  $places: floor($places);
+  $int: floor($value);
+  $dec: $value - $int;
+  $working: $dec;
+
+  $fp1: 0; $fp2: 0;
+  $fp3: 0; $fp4: 0;
+  $fp5: 0; $fp6: 0;
+  $fp7: 0; $fp8: 0;
+  $fp9: 0;
+
+  $sub: .1;
+  $spot: 1;
+  @while $spot <= $places {
+    $count: 0;
+    @while $working > 0 {
+      $working: $working - $sub;
+      $count: $count + 1;
+      @if $working <= 0 {
+
+        @if $working < 0 {
+          $count: $count - 1;
+          $working: $working + $sub;
+        }
+        $count: floor($count);
+        $count: $count*$sub;
+
+        @if $sub == .1 {
+          @debug "recording $fp1";
+          @debug $count;
+          $fp1: $count;
+        }
+        @else if $sub == .01 {
+          @debug "recording $fp2";
+          @debug $count;
+          $fp2: $count;
+        }
+        @else if $sub == .001 {
+          @debug "recording $fp3";
+          @debug $count;
+          $fp3: $count;
+        }
+        @else if $sub == .0001 {
+          @debug "recording $fp4";
+          @debug $count;
+          $fp4: $count;
+        }
+        @else if $sub == .00001 {
+          @debug "recording $fp5";
+          @debug $count;
+          $fp5: $count;
+        }
+        @else if $sub == .000001 {
+          @debug "recording $fp6";
+          @debug $count;
+          $fp6: $count;
+        }
+        @else if $sub == .0000001 {
+          @debug "recording $fp7";
+          @debug $count;
+          $fp7: $count;
+        }
+        @else if $sub == .00000001 {
+          @debug "recording $fp8";
+          @debug $count;
+          $fp8: $count;
+        }
+        @else if $sub == .000000001 {
+          @debug "recording $fp9";
+          @debug $count;
+          $fp9: $count;
+        }
+        $spot: $spot + 1;
+        $sub: $sub / 10;
+      }
+    }
+  }
+  $ans: 0;
+  @for $i from 1 through $places {
+    @if $i == 1 {
+      $ans: $ans + $fp1;
+    }
+    @else if $i == 2 {
+      $ans: $ans + $fp2;
+    }
+    @else if $i == 3 {
+      $ans: $ans + $fp3;
+    }
+    @else if $i == 4 {
+      $ans: $ans + $fp4;
+    }
+    @else if $i == 5 {
+      $ans: $ans + $fp5;
+    }
+    @else if $i == 6 {
+      $ans: $ans + $fp6;
+    }
+    @else if $i == 7 {
+      $ans: $ans + $fp7;
+    }
+    @else if $i == 8 {
+      $ans: $ans + $fp8;
+    }
+    @else if $i == 9 {
+      $ans: $ans + $fp9;
+    }
+  }
+
+  $ans: $ans + $int;
+  @return $ans;
+}
+
+
+
+
+//////////////////////////////////////////////////////
+// Images
+//////////////////////////////////////////////////////
+
+@mixin zealot-backstretch($pos1: center, $pos2: center) {
+  background: {
+    size: cover;
+    position: $pos1 $pos2;
+    attachment: fixed;
+    repeat: no-repeat;
+  }
+}
+
+
+
+
+//////////////////////////////////////////////////////
+// Hiding
+//////////////////////////////////////////////////////
+// Hiding techniques based off those found in v4 of
+// the HTML5 boilerplate http://h5bp.com
+
+@mixin zealot-image-replacement() {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+  &:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 125%;
+  }
+}
+
+@mixin zealot-hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+@mixin zealot-hidden-visually($focusable: false) {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  @if $focusable == "focusable" {
+    &:active, &:focus {
+      clip: auto;
+      height: auto;
+      margin: 0;
+      overflow: visible;
+      position: static;
+      width: auto;
+    }
+  }
+}
+
+@mixin zealot-invisible {
+  visibility: hidden;
+}
+
+
+
+
+//////////////////////////////////////////////////////
+// Forms
+//////////////////////////////////////////////////////
+
+// image replacement radio buttons
+@mixin zealot-radio-replacement() {
+  input {
+    display: none;
+    .lt-ie9 & { display: inline; }
+  }
+  label {
+    padding-left: 1.25em;
+    margin-right: 1em;
+    // @include sens-background-image("radio_unchecked");
+    background: {
+      image: url(radio_unchecked.svg);
+      size: 1em 1em;
+      repeat: no-repeat;
+    }
+    .lt-ie9 & {
+      padding-left: 5px !important;
+      background: none;
+    }
+  }
+  input:checked + label {
+    // @include sens-background-image("radio_checked");
+    background: {
+      image: url(radio_checked.svg);
+      size: 1em 1em;
+      repeat: no-repeat;
+    }
+    .lt-ie9 { background: none; }
+  }
+}
+
+// image replacement checkboxes 
+@mixin zealot-checkbox-replacement() {
+  input {
+    display: none;
+    .lt-ie9 & { display: inline; }
+  }
+  label {
+    padding-left: 1.25em;
+    padding-top: .15em;
+    margin-right: 1em;
+    // @include sens-background-image("checkbox_unchecked");
+    background: {
+      image: url(checkbox_unchecked.svg);
+      size: 1em 1em;
+      repeat: no-repeat;
+    }
+    .lt-ie9 & {
+      padding-left: 5px !important;
+      background: none;
+    }
+  }
+  input:checked + label {
+    // @include sens-background-image("checkbox_checked");
+    background: {
+      image: url(checkbox_checked.svg);
+      size: 1em 1em;
+      repeat: no-repeat;
+    }
+    .lt-ie9 & {
+      background: none;
+    }
+  }
+}
+
+
+
+
+//////////////////////////////////////////////////////
+// Colors
+//////////////////////////////////////////////////////
+
+@mixin zealot-rgba($red,$green,$blue,$alpha) {
+  background-color: rgb($red,$green,$blue);
+  background-color: rgba($red,$green,$blue, $alpha);
+}
+@mixin zealot-alpha($hex,$alpha) {
+  background-color: rgb($hex,$blue);
+  background-color: rgba($hex, $alpha); 
+}
+
+
+
+
+//////////////////////////////////////////////////////
+// Animations
+//////////////////////////////////////////////////////
+
+@mixin zealot-animate($time: .5s, $ease: ease-in-out, $prop: all) {
+  -webkit-transition: $prop $time $ease;
+  -moz-transition: $prop $time $ease;
+  -o-transition: $prop $time $ease;
+  transition: $prop $time $ease;
+}
+
+
+
+
+//////////////////////////////////////////////////////
+// Printing
+//////////////////////////////////////////////////////
+// Printing defaults from HTML5 Boilerplate
+@mixin zealot-print {
+  @media print {
+    * {
+      background: transparent !important;
+      color: #000 !important;
+      box-shadow:none !important;
+      text-shadow: none !important;
+    }
+    a, a:visited { text-decoration: underline;  }
+    pre, blockquote {
+      border: 1px solid #999;
+      page-break-inside: avoid;
+    }
+    thead { display: table-header-group; }
+    tr, img { page-break-inside: avoid; }
+    img { max-width: 100% !important; }
+    @page { margin: 0.5cm; }
+    p, h2, h3 {
+      orphans: 3;
+      widows: 3;
+    }
+    h2, h3 { page-break-after: avoid; }
+  }
+}
+
+@mixin zealot-print-hrefs {
+  @include zealot-print;
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+      content: "";
+  }
+}
+
+
+
+
+//////////////////////////////////////////////////////
+// Styling
+//////////////////////////////////////////////////////
+
+@mixin zealot-box-emboss($opacity, $opacity2, $white: #fff, $black: #000) {
+    box-shadow: rgba($white, $opacity) 0 1px 0, inset rgba($black, $opacity2) 0 1px 0;
+}
+
+@mixin zealot-letterpress($opacity, $hex: #fff) {
+    text-shadow: rgba($hex, $opacity) 0 1px 0;
+}
+
+@mixin zealot-arrow($position: right, $size: 2em, $color: #d00d1e, $borderWidth: .25em, $borderColor: #ff1a3c) {
+  position: relative;
+
+  $positionSwapped: "";
+  @if $position == top { $positionSwapped: bottom; }
+  @else if $position == right { $positionSwapped: left; }
+  @else if $position == bottom { $positionSwapped: top; }
+  @else { $positionSwapped: right; }
+  
+  $positioningSide: "";
+  @if $position == top or $position == bottom { $positioningSide: left; }
+  @else { $positioningSide: top; }
+
+  $bordered: "";
+  @if $borderWidth > 0 { $bordered: ", &:before"; }
+
+  &:after#{$bordered} {
+    #{$positionSwapped}: 100%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    #{$positioningSide}: 50%;
+    border-color: rgba(0,0,0,0);
+  }
+
+  &:after {
+    border-#{$positionSwapped}-color: $color;
+    border-width: $size;
+    margin-#{$positioningSide}: absNeg($size);
+  }
+  @if $borderWidth > 0 {
+    &:before {
+      $realBorderWidth: $borderWidth * 1.3;
+      border-#{$positionSwapped}-color: $borderColor;
+      border-width: $size + $realBorderWidth;
+      margin-#{$positioningSide}: absNeg($size + $realBorderWidth);
+    }
+  }
+}
+
+
+
+
+
+//////////////////////////////////////////////////////
+// Lists
+//////////////////////////////////////////////////////
+
+@mixin zealot-list-horizontal {
+  list-style-type: none;
+  padding:0;
+  margin:0;
+  overflow:hidden;
+  li{
+    display:block;
+    float:left;
+    &:last-child{
+        margin-right:0px;
+    }
+  }
+}
+
+@mixin zealot-list-inline {
+  list-style-type: none;
+  &, li {
+    margin: 0px;
+    padding: 0px;
+    display: inline; }
+}
+
+@mixin zealot-list-delimited($delim: ", ") {
+  @include zealot-list-inline;
+  li {
+    &:after {
+      content: $delim;
+    }
+    &:last-child {
+      &:after {
+        content: "";
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
