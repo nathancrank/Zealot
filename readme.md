@@ -3,7 +3,7 @@ A very random-SASS framework.
 Nathan Crank
 
 ## What?
-Zealot is a series of SASS mixins and functions that hopefully make your life a bit easier as you develop. They are organized with absolutely no logic, they exists with not permanence with zealot, and thats by design. This is my personal beta framework. It will always be v0.1.
+Zealot is a series of SASS mixins and functions that hopefully make your life a bit easier as you develop. They are organized with absolutely no logic, they exists with no permanence within Zealot, and thats by design. This is my personal beta framework. It will always be v0.1.
 
 ## Why?
 Zealot wasn't really developed with any direct goal in mind. It is more a collection of mixins and functions that I found myself using with some frequency from project to project. Or I spent a whole sass-load of time figuring them out. Like the floating point truncate. That was a doozy. And yes, there has to be a far more efficient way to do that one, but no one else has done it yet that I could find, so give me some credit.
