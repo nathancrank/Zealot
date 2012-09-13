@@ -409,14 +409,14 @@
 
 @mixin zealot-list-horizontal {
   list-style-type: none;
-  padding:0;
-  margin:0;
-  overflow:hidden;
-  li{
-    display:block;
-    float:left;
-    &:last-child{
-        margin-right:0px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  li {
+    display: block;
+    float: left;
+    &:last-child {
+      margin-right:0px;
     }
   }
 }
@@ -446,6 +446,43 @@
 
 
 
+//////////////////////////////////////////////////////
+// Columns
+//////////////////////////////////////////////////////
+
+@mixin zealot-column($count,$gap) {
+  -webkit-column-count: $count;
+  -webkit-column-gap: $gap;
+  -moz-column-count: $count;
+  -moz-column-gap: $gap;
+  -o-column-count: $count;
+  -o-column-gap: $gap;
+  -ms-column-count: $count;
+  -ms-column-gap: $gap;
+  column-count: $count;
+  column-gap: $gap;
+}
+@mixin zealot-column-break-before($prop) {
+  -webkit-column-break-before: $prop;
+  -moz-column-break-before: $prop;
+  -o-column-break-before: $prop;
+  -ms-column-break-before: $prop;
+  column-break-before: $prop;
+}
+@mixin zealot-column-break-after($prop) {
+  -webkit-column-break-after: $prop;
+  -moz-column-break-after: $prop;
+  -o-column-break-after: $prop;
+  -ms-column-break-after: $prop;
+  column-break-after: $prop;
+}
+@mixin zealot-column-break-inside($prop) {
+  -webkit-column-break-inside: $prop;
+  -moz-column-break-inside: $prop;
+  -o-column-break-inside: $prop;
+  -ms-column-break-inside: $prop;
+  column-break-inside: $prop;
+}
 
 
 
