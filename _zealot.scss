@@ -348,11 +348,11 @@
 // Styling
 //////////////////////////////////////////////////////
 
-@mixin zealot-box-emboss($opacity: .5, $opacity2: .5, $white: #fff, $black: #000) {
+@mixin zealot-box-emboss($opacity: .25, $opacity2: .25, $white: #fff, $black: #000) {
     box-shadow: rgba($white, $opacity) 0 1px 0, inset rgba($black, $opacity2) 0 1px 0;
 }
 
-@mixin zealot-letterpress($opacity: .5, $hex: #fff) {
+@mixin zealot-letterpress($opacity: .25, $hex: #fff) {
     text-shadow: rgba($hex, $opacity) 0 1px 0;
 }
 
