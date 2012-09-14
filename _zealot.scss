@@ -44,48 +44,30 @@
         $count: $count*$sub;
 
         @if $sub == .1 {
-          @debug "recording $fp1";
-          @debug $count;
           $fp1: $count;
         }
         @else if $sub == .01 {
-          @debug "recording $fp2";
-          @debug $count;
           $fp2: $count;
         }
         @else if $sub == .001 {
-          @debug "recording $fp3";
-          @debug $count;
           $fp3: $count;
         }
         @else if $sub == .0001 {
-          @debug "recording $fp4";
-          @debug $count;
           $fp4: $count;
         }
         @else if $sub == .00001 {
-          @debug "recording $fp5";
-          @debug $count;
           $fp5: $count;
         }
         @else if $sub == .000001 {
-          @debug "recording $fp6";
-          @debug $count;
           $fp6: $count;
         }
         @else if $sub == .0000001 {
-          @debug "recording $fp7";
-          @debug $count;
           $fp7: $count;
         }
         @else if $sub == .00000001 {
-          @debug "recording $fp8";
-          @debug $count;
           $fp8: $count;
         }
         @else if $sub == .000000001 {
-          @debug "recording $fp9";
-          @debug $count;
           $fp9: $count;
         }
         $spot: $spot + 1;
@@ -204,7 +186,7 @@
 //////////////////////////////////////////////////////
 
 // image replacement radio buttons
-@mixin zealot-radio-replacement() {
+@mixin zealot-radio-replacement($checked: "radio_checked.svg", $unchecked: "radio_unchecked.svg") {
   input {
     display: none;
     .lt-ie9 & { display: inline; }
@@ -212,9 +194,8 @@
   label {
     padding-left: 1.25em;
     margin-right: 1em;
-    // @include sens-background-image("radio_unchecked");
     background: {
-      image: url(radio_unchecked.svg);
+      image: url($checked);
       size: 1em 1em;
       repeat: no-repeat;
     }
@@ -224,9 +205,8 @@
     }
   }
   input:checked + label {
-    // @include sens-background-image("radio_checked");
     background: {
-      image: url(radio_checked.svg);
+      image: url($unchecked);
       size: 1em 1em;
       repeat: no-repeat;
     }
@@ -235,7 +215,7 @@
 }
 
 // image replacement checkboxes 
-@mixin zealot-checkbox-replacement() {
+@mixin zealot-checkbox-replacement($checked: "checkbox_checked.svg", $unchecked: "checkbox_unchecked.svg") {
   input {
     display: none;
     .lt-ie9 & { display: inline; }
@@ -244,9 +224,8 @@
     padding-left: 1.25em;
     padding-top: .15em;
     margin-right: 1em;
-    // @include sens-background-image("checkbox_unchecked");
     background: {
-      image: url(checkbox_unchecked.svg);
+      image: url($checked);
       size: 1em 1em;
       repeat: no-repeat;
     }
@@ -256,9 +235,8 @@
     }
   }
   input:checked + label {
-    // @include sens-background-image("checkbox_checked");
     background: {
-      image: url(checkbox_checked.svg);
+      image: url($unchecked);
       size: 1em 1em;
       repeat: no-repeat;
     }
