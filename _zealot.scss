@@ -110,6 +110,82 @@
   @return $ans;
 }
 
+@function nthroot($num,$n: 2) {
+  $num: abs($num);
+  $nm1: $n - 1;
+
+  $value: $num;
+  $xn: $value;
+  @for $i from 1 to $nm1 {
+    $xn: $xn * $value;
+  }
+
+  @if $nm1 == 1 { $xn: $xn * $value; }
+
+  @while $num !=  $xn {
+    $xnm1: $value;
+    @for $i from 1 to $nm1 {
+      $xnm1: $xnm1 * $value;
+    }
+
+    $value: (1 / $n) * ( ( ($n - 1) * $value) + ($num / $xnm1) );
+
+    $xn: $value;
+    @for $i from 1 to $n {
+      $xn: $xn * $value;
+    }
+  }
+
+  @return $value;
+}
+
+@function sqrt($num) {
+  @return nthroot($num);
+}
+
+@function cubert($num) {
+  @return nthroot($num, 3);
+}
+
+@function exponent($num,$expN,$expD: 1) {
+  $value: $num;
+  $neg: false;
+  $expDCalc: false;
+
+  @if $expN < 0 {
+    $expN: $expN * -1;
+    $neg: true;
+  }
+
+  @if $expD != 1 {
+    $expDCalc: true;
+    @if $expD < 0 {
+      $expD: $expD * -1;
+      @if $neg == true { $neg: false; }
+      @else { $neg: true; }
+    }
+  }
+
+  @for $i from 1 to $expN {
+    $value: $value * $num;
+  }
+
+  @if $expDCalc == true { $value: nthroot($value,$expD); }
+
+  @if $neg == true {
+    @return 1/$value;
+  } @else {
+    @return $value;
+  }
+}
+
+@function square($num) {
+  @return exponent($num, 2);
+}
+
+@function cube($num) {
+  @return exponent($num, 3);
+}
 
 
 

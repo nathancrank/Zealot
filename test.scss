@@ -1,0 +1,134 @@
+@import "zealot";
+
+nthroots {
+  /* Square Roots */
+  /* 2 */
+  font-size: sqrt(4);
+  /* 3 */
+  font-size: sqrt(9);
+  /* 4 */
+  font-size: sqrt(16);
+  /* 5 */
+  font-size: sqrt(25);
+  /* 6 */
+  font-size: sqrt(36);
+  /* 7 */
+  font-size: sqrt(49);
+  /* 8 */
+  font-size: sqrt(64);
+  /* 9 */
+  font-size: sqrt(81);
+  /* */
+  /* */
+  /* Cube Roots */
+  /* 2 */
+  font-size: nthroot(8,3);
+  /* 3 */
+  font-size: nthroot(27,3);
+  /* 4 */
+  font-size: nthroot(64,3);
+  /* 5 */
+  font-size: nthroot(125,3);
+  /* 6 */
+  font-size: nthroot(216,3);
+  /* 7 */
+  font-size: nthroot(343,3);
+  /* 8 */
+  font-size: nthroot(512,3);
+  /* 9 */
+  font-size: nthroot(729,3);
+  /* */
+  /* */
+  /* n=4 */
+  /* 2 */
+  font-size: nthroot(16,4);
+  /* 3 */
+  font-size: nthroot(81,4);
+  /* 4 */
+  font-size: nthroot(256,4);
+  /* 5 */
+  font-size: nthroot(625,4);
+  /* 6 */
+  font-size: nthroot(1296,4);
+  /* 7 */
+  font-size: nthroot(2401,4);
+  /* 8 */
+  font-size: nthroot(4096,4);
+  /* 9 */
+  font-size: nthroot(6561,4);
+  /* */
+  /* */
+  /* n=5 */
+  /* 2 */
+  font-size: nthroot(32,5);
+  /* 3 */
+  font-size: nthroot(243,5);
+  /* 4 */
+  font-size: nthroot(1024,5);
+  /* 5 */
+  font-size: nthroot(3125,5);
+  /* 6 */
+  font-size: nthroot(7776,5);
+  /* 7 */
+  font-size: nthroot(16807,5);
+  /* 8 */
+  font-size: nthroot(32768,5);
+  /* 9 */
+  font-size: nthroot(59049,5);
+
+}
+
+
+exponents {
+  /* Squares */
+  /* 1 */
+  font-size: square(1);
+  /* 4 */
+  font-size: square(2);
+  /* 9 */
+  font-size: square(3);
+  /* 16 */
+  font-size: square(4);
+  /* 25 */
+  font-size: square(5);
+  /* 36 */
+  font-size: square(6);
+  /* 49 */
+  font-size: square(7);
+  /* 64 */
+  font-size: square(8);
+  /* 81 */
+  font-size: square(9);
+  /* */
+  /* */
+  /* Cubes */
+  /* 1 */
+  font-size: cube(1);
+  /* 8 */
+  font-size: cube(2);
+  /* 27 */
+  font-size: cube(3);
+  /* 64 */
+  font-size: cube(4);
+  /* 125 */
+  font-size: cube(5);
+  /* 216 */
+  font-size: cube(6);
+  /* 343 */
+  font-size: cube(7);
+  /* 512 */
+  font-size: cube(8);
+  /* 729 */
+  font-size: cube(9);
+  /* */
+  /* */
+  /* Fractions */
+  /* 4 */
+  font-size: exponent(8,2,3);
+  /* 16 */
+  font-size: exponent(8,4,3);
+  /* 2 */
+  font-size: exponent(8,2,6);
+  /* 128 */
+  font-size: exponent(8,7,3);
+}
