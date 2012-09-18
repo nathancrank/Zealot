@@ -110,33 +110,39 @@
   @return $ans;
 }
 
+@function aproxequal($val1, $val2, $prec: .00001) {
+  @if $val1 - $val2 > $prec { @return false; }
+  @else if $val1 - $val2 < -1 * $prec { @return false; }
+  @else { @return true; }
+}
+
+@function notaproxequal($val1, $val2) {
+  @if aproxequal($val1, $val2) == false { @return true; }
+  @else { @return false; }
+}
+
 @function nthroot($num,$n: 2) {
+  // @debug "Calculating #{$n}-root for #{$num}";
+  $neg: false;
+  @if $n < 0 {
+    $neg: true;
+  }
   $num: abs($num);
-  $nm1: $n - 1;
-
   $value: $num;
-  $xn: $value;
-  @for $i from 1 to $nm1 {
-    $xn: $xn * $value;
+  // @debug "guess: #{$value}, x^n: #{exponent($value, $n)}, num: #{$num}, correct: #{$num == exponent($value, $n)}";
+  // @while $num != exponent($value, $n) {
+  @while notaproxequal($num,exponent($value, $n)) {
+    $value: (1 / $n) * ( ( ($n - 1) * $value) + ($num / exponent($value,$n - 1)) );
+    // @debug "guess: #{$value}, x^n: #{exponent($value, $n)}, num: #{$num}, correct: #{$num == exponent($value, $n)}";
+    @if exponent($value, $n) == Infinity { @return null };
   }
-
-  @if $nm1 == 1 { $xn: $xn * $value; }
-
-  @while $num !=  $xn {
-    $xnm1: $value;
-    @for $i from 1 to $nm1 {
-      $xnm1: $xnm1 * $value;
-    }
-
-    $value: (1 / $n) * ( ( ($n - 1) * $value) + ($num / $xnm1) );
-
-    $xn: $value;
-    @for $i from 1 to $n {
-      $xn: $xn * $value;
-    }
+  @if $neg == true {
+    // @debug "result: #{1/$value}";
+    @return 1/$value;
+  } @else {
+    // @debug "result: #{$value}";
+    @return $value;
   }
-
-  @return $value;
 }
 
 @function sqrt($num) {
@@ -151,12 +157,10 @@
   $value: $num;
   $neg: false;
   $expDCalc: false;
-
   @if $expN < 0 {
     $expN: $expN * -1;
     $neg: true;
   }
-
   @if $expD != 1 {
     $expDCalc: true;
     @if $expD < 0 {
@@ -165,13 +169,10 @@
       @else { $neg: true; }
     }
   }
-
   @for $i from 1 to $expN {
     $value: $value * $num;
   }
-
   @if $expDCalc == true { $value: nthroot($value,$expD); }
-
   @if $neg == true {
     @return 1/$value;
   } @else {
