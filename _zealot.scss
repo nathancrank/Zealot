@@ -15,6 +15,7 @@
 }
 
 @function floatingTruncate($value: 3.141519265, $places: 2) {
+  // @debug "Truncating #{$value} #{$places} places";
   @if $places < 0 { $places: abs($places); }
   $places: floor($places);
   $int: floor($value);
@@ -34,46 +35,52 @@
     @while $working > 0 {
       $working: $working - $sub;
       $count: $count + 1;
-      @if $working <= 0 {
-
-        @if $working < 0 {
-          $count: $count - 1;
-          $working: $working + $sub;
-        }
-        $count: floor($count);
-        $count: $count*$sub;
-
-        @if $sub == .1 {
-          $fp1: $count;
-        }
-        @else if $sub == .01 {
-          $fp2: $count;
-        }
-        @else if $sub == .001 {
-          $fp3: $count;
-        }
-        @else if $sub == .0001 {
-          $fp4: $count;
-        }
-        @else if $sub == .00001 {
-          $fp5: $count;
-        }
-        @else if $sub == .000001 {
-          $fp6: $count;
-        }
-        @else if $sub == .0000001 {
-          $fp7: $count;
-        }
-        @else if $sub == .00000001 {
-          $fp8: $count;
-        }
-        @else if $sub == .000000001 {
-          $fp9: $count;
-        }
-        $spot: $spot + 1;
-        $sub: $sub / 10;
-      }
     }
+    @if $working < 0 {
+      $count: $count - 1;
+      $working: $working + $sub;
+    }
+    $count: floor($count);
+    $count: $count*$sub;
+
+    @if $sub == .1 {
+      $fp1: $count;
+      // @debug $fp1;
+    }
+    @else if $sub == .01 {
+      $fp2: $count;
+      // @debug $fp2;
+    }
+    @else if $sub == .001 {
+      $fp3: $count;
+      // @debug $fp3;
+    }
+    @else if $sub == .0001 {
+      $fp4: $count;
+      // @debug $fp4;
+    }
+    @else if $sub == .00001 {
+      $fp5: $count;
+      // @debug $fp5;
+    }
+    @else if $sub == .000001 {
+      $fp6: $count;
+      // @debug $fp6;
+    }
+    @else if $sub == .0000001 {
+      $fp7: $count;
+      // @debug $fp7;
+    }
+    @else if $sub == .00000001 {
+      $fp8: $count;
+      // @debug $fp8;
+    }
+    @else if $sub == .000000001 {
+      $fp9: $count;
+      // @debug $fp9;
+    }
+    $spot: $spot + 1;
+    $sub: $sub / 10;
   }
   $ans: 0;
   @for $i from 1 through $places {
@@ -105,15 +112,13 @@
       $ans: $ans + $fp9;
     }
   }
-
   $ans: $ans + $int;
   @return $ans;
 }
 
-@function aproxequal($val1, $val2, $prec: .00001) {
-  @if $val1 - $val2 > $prec { @return false; }
-  @else if $val1 - $val2 < -1 * $prec { @return false; }
-  @else { @return true; }
+@function aproxequal($val1, $val2, $prec: .00002) {
+  @if abs($val1 - $val2) <= $prec { @return true; }
+  @else { @return false; }
 }
 
 @function notaproxequal($val1, $val2) {
