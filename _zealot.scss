@@ -136,10 +136,12 @@
   $value: $num;
   // @debug "guess: #{$value}, x^n: #{exponent($value, $n)}, num: #{$num}, correct: #{$num == exponent($value, $n)}";
   // @while $num != exponent($value, $n) {
-  @while notaproxequal($num,exponent($value, $n)) {
+  $testValue: exponent($value, $n);
+  @while notaproxequal($num,$testValue) {
     $value: (1 / $n) * ( ( ($n - 1) * $value) + ($num / exponent($value,$n - 1)) );
     // @debug "guess: #{$value}, x^n: #{exponent($value, $n)}, num: #{$num}, correct: #{$num == exponent($value, $n)}";
-    @if exponent($value, $n) == Infinity { @return null };
+    $testValue: exponent($value, $n);
+    @if $testValue == Infinity { @return null };
   }
   @if $neg == true {
     // @debug "result: #{1/$value}";
