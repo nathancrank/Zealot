@@ -219,7 +219,7 @@
 // Hiding techniques based off those found in v4 of
 // the HTML5 boilerplate http://h5bp.com
 
-@mixin zealot-image-replacement() {
+%zealot-image-replacement {
   background-color: transparent;
   border: 0;
   overflow: hidden;
@@ -232,12 +232,12 @@
   }
 }
 
-@mixin zealot-hidden {
+%zealot-hidden {
   display: none !important;
   visibility: hidden;
 }
 
-@mixin zealot-hidden-visually($focusable: false) {
+%zealot-hidden-visually {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
@@ -246,19 +246,20 @@
   padding: 0;
   position: absolute;
   width: 1px;
-  @if $focusable == "focusable" {
-    &:active, &:focus {
-      clip: auto;
-      height: auto;
-      margin: 0;
-      overflow: visible;
-      position: static;
-      width: auto;
-    }
+}
+%zealot-hidden-visually-focusable {
+  @extend %zealot-hidden-visually;
+  &:active, &:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
   }
 }
 
-@mixin zealot-invisible {
+%zealot-invisible {
   visibility: hidden;
 }
 
@@ -273,7 +274,7 @@
 @mixin zealot-radio-replacement($checked: "radio_checked.svg", $unchecked: "radio_unchecked.svg") {
   input {
     display: none;
-    .lt-ie9 & { display: inline; }
+    .oldie & { display: inline; }
   }
   label {
     padding-left: 1.25em;
@@ -283,7 +284,7 @@
       size: 1em 1em;
       repeat: no-repeat;
     }
-    .lt-ie9 & {
+    .oldie & {
       padding-left: 5px !important;
       background: none;
     }
@@ -294,7 +295,7 @@
       size: 1em 1em;
       repeat: no-repeat;
     }
-    .lt-ie9 { background: none; }
+    .oldie { background: none; }
   }
 }
 
@@ -302,7 +303,7 @@
 @mixin zealot-checkbox-replacement($checked: "checkbox_checked.svg", $unchecked: "checkbox_unchecked.svg") {
   input {
     display: none;
-    .lt-ie9 & { display: inline; }
+    .oldie & { display: inline; }
   }
   label {
     padding-left: 1.25em;
@@ -313,7 +314,7 @@
       size: 1em 1em;
       repeat: no-repeat;
     }
-    .lt-ie9 & {
+    .oldie & {
       padding-left: 5px !important;
       background: none;
     }
@@ -324,7 +325,7 @@
       size: 1em 1em;
       repeat: no-repeat;
     }
-    .lt-ie9 & {
+    .oldie & {
       background: none;
     }
   }
@@ -414,8 +415,8 @@
     box-shadow: rgba($white, $opacity) 0 1px 0, inset rgba($black, $opacity2) 0 1px 0;
 }
 
-@mixin zealot-letterpress($opacity: .25, $hex: #fff) {
-    text-shadow: rgba($hex, $opacity) 0 1px 0;
+@mixin zealot-letterpress($opacity: .25, $hex: #fff, $offset: -1px) {
+    text-shadow: rgba($hex, $opacity) 0 $offset 0;
 }
 
 @mixin zealot-arrow($position: right, $size: 2em, $color: #d00d1e, $borderWidth: .25em, $borderColor: #ff1a3c) {
@@ -469,7 +470,7 @@
 // Lists
 //////////////////////////////////////////////////////
 
-@mixin zealot-list-horizontal {
+%zealot-list-horizontal {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -483,7 +484,7 @@
   }
 }
 
-@mixin zealot-list-inline {
+%zealot-list-inline {
   list-style-type: none;
   &, li {
     margin: 0px;
@@ -491,8 +492,22 @@
     display: inline; }
 }
 
+%zealot-list-comma-delimited {
+  @extend %zealot-list-inline;
+  li {
+    &:after {
+      content: ", ";
+    }
+    &:last-child {
+      &:after {
+        content: "";
+      }
+    }
+  }
+}
+
 @mixin zealot-list-delimited($delim: ", ") {
-  @include zealot-list-inline;
+  @extend %zealot-list-inline;
   li {
     &:after {
       content: $delim;
