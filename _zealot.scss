@@ -127,27 +127,18 @@
 }
 
 @function nthroot($num,$n: 2) {
-  // @debug "Calculating #{$n}-root for #{$num}";
-  $neg: false;
-  @if $n < 0 {
-    $neg: true;
-  }
+  $neg: $n < 0;
+
   $num: abs($num);
   $value: $num;
-  // @debug "guess: #{$value}, x^n: #{exponent($value, $n)}, num: #{$num}, correct: #{$num == exponent($value, $n)}";
-  // @while $num != exponent($value, $n) {
   $testValue: exponent($value, $n);
   @while notaproxequal($num,$testValue) {
     $value: (1 / $n) * ( ( ($n - 1) * $value) + ($num / exponent($value,$n - 1)) );
-    // @debug "guess: #{$value}, x^n: #{exponent($value, $n)}, num: #{$num}, correct: #{$num == exponent($value, $n)}";
     $testValue: exponent($value, $n);
-    @if $testValue == Infinity { @return null };
   }
-  @if $neg == true {
-    // @debug "result: #{1/$value}";
+  @if ($neg) {
     @return 1/$value;
   } @else {
-    // @debug "result: #{$value}";
     @return $value;
   }
 }
@@ -164,23 +155,24 @@
   $value: $num;
   $neg: false;
   $expDCalc: false;
-  @if $expN < 0 {
-    $expN: $expN * -1;
-    $neg: true;
-  }
-  @if $expD != 1 {
-    $expDCalc: true;
-    @if $expD < 0 {
-      $expD: $expD * -1;
-      @if $neg == true { $neg: false; }
-      @else { $neg: true; }
-    }
-  }
+
+  $neg: $expN < 0;
+  $expN: abs($expN);
+
   @for $i from 1 to $expN {
     $value: $value * $num;
   }
-  @if $expDCalc == true { $value: nthroot($value,$expD); }
-  @if $neg == true {
+  
+  @if ($expD != 1) {
+    @if $expD < 0 {
+      $expD: $expD * -1;
+      @if ($neg) { $neg: false; }
+      @else { $neg: true; }
+    }
+    $value: nthroot($value,$expD);
+  }
+
+  @if ($neg) {
     @return 1/$value;
   } @else {
     @return $value;
