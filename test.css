@@ -1,0 +1,3988 @@
+absNegTest {
+  test-value: -1;
+  test-value: -2;
+  test-value: -3;
+  test-value: -4;
+  test-value: -5;
+  test-value: -6;
+  test-value: -7;
+  test-value: -8;
+  test-value: -9;
+  test-value: -10;
+  test-value: -11;
+  test-value: -12;
+  test-value: -13;
+  test-value: -14;
+  test-value: -15;
+  test-value: -16;
+  test-value: -17;
+  test-value: -18;
+  test-value: -19;
+  test-value: -20;
+  test-value: -21;
+  test-value: -22;
+  test-value: -23;
+  test-value: -24;
+  test-value: -25;
+  test-value: -26;
+  test-value: -27;
+  test-value: -28;
+  test-value: -29;
+  test-value: -30;
+  test-value: -31;
+  test-value: -32;
+  test-value: -33;
+  test-value: -34;
+  test-value: -35;
+  test-value: -36;
+  test-value: -37;
+  test-value: -38;
+  test-value: -39;
+  test-value: -40;
+  test-value: -41;
+  test-value: -42;
+  test-value: -43;
+  test-value: -44;
+  test-value: -45;
+  test-value: -46;
+  test-value: -47;
+  test-value: -48;
+  test-value: -49;
+  test-value: -50;
+  test-value: -51;
+  test-value: -52;
+  test-value: -53;
+  test-value: -54;
+  test-value: -55;
+  test-value: -56;
+  test-value: -57;
+  test-value: -58;
+  test-value: -59;
+  test-value: -60;
+  test-value: -61;
+  test-value: -62;
+  test-value: -63;
+  test-value: -64;
+  test-value: -65;
+  test-value: -66;
+  test-value: -67;
+  test-value: -68;
+  test-value: -69;
+  test-value: -70;
+  test-value: -71;
+  test-value: -72;
+  test-value: -73;
+  test-value: -74;
+  test-value: -75;
+  test-value: -76;
+  test-value: -77;
+  test-value: -78;
+  test-value: -79;
+  test-value: -80;
+  test-value: -81;
+  test-value: -82;
+  test-value: -83;
+  test-value: -84;
+  test-value: -85;
+  test-value: -86;
+  test-value: -87;
+  test-value: -88;
+  test-value: -89;
+  test-value: -90;
+  test-value: -91;
+  test-value: -92;
+  test-value: -93;
+  test-value: -94;
+  test-value: -95;
+  test-value: -96;
+  test-value: -97;
+  test-value: -98;
+  test-value: -99;
+  test-value: -100;
+  test-value: -101;
+  test-value: -102;
+  test-value: -103;
+  test-value: -104;
+  test-value: -105;
+  test-value: -106;
+  test-value: -107;
+  test-value: -108;
+  test-value: -109;
+  test-value: -110;
+  test-value: -111;
+  test-value: -112;
+  test-value: -113;
+  test-value: -114;
+  test-value: -115;
+  test-value: -116;
+  test-value: -117;
+  test-value: -118;
+  test-value: -119;
+  test-value: -120;
+  test-value: -121;
+  test-value: -122;
+  test-value: -123;
+  test-value: -124;
+  test-value: -125;
+  test-value: -126;
+  test-value: -127;
+  test-value: -128;
+  test-value: -129;
+  test-value: -130;
+  test-value: -131;
+  test-value: -132;
+  test-value: -133;
+  test-value: -134;
+  test-value: -135;
+  test-value: -136;
+  test-value: -137;
+  test-value: -138;
+  test-value: -139;
+  test-value: -140;
+  test-value: -141;
+  test-value: -142;
+  test-value: -143;
+  test-value: -144;
+  test-value: -145;
+  test-value: -146;
+  test-value: -147;
+  test-value: -148;
+  test-value: -149;
+  test-value: -150;
+  test-value: -151;
+  test-value: -152;
+  test-value: -153;
+  test-value: -154;
+  test-value: -155;
+  test-value: -156;
+  test-value: -157;
+  test-value: -158;
+  test-value: -159;
+  test-value: -160;
+  test-value: -161;
+  test-value: -162;
+  test-value: -163;
+  test-value: -164;
+  test-value: -165;
+  test-value: -166;
+  test-value: -167;
+  test-value: -168;
+  test-value: -169;
+  test-value: -170;
+  test-value: -171;
+  test-value: -172;
+  test-value: -173;
+  test-value: -174;
+  test-value: -175;
+  test-value: -176;
+  test-value: -177;
+  test-value: -178;
+  test-value: -179;
+  test-value: -180;
+  test-value: -181;
+  test-value: -182;
+  test-value: -183;
+  test-value: -184;
+  test-value: -185;
+  test-value: -186;
+  test-value: -187;
+  test-value: -188;
+  test-value: -189;
+  test-value: -190;
+  test-value: -191;
+  test-value: -192;
+  test-value: -193;
+  test-value: -194;
+  test-value: -195;
+  test-value: -196;
+  test-value: -197;
+  test-value: -198;
+  test-value: -199;
+  test-value: -200;
+  test-value: -201;
+  test-value: -202;
+  test-value: -203;
+  test-value: -204;
+  test-value: -205;
+  test-value: -206;
+  test-value: -207;
+  test-value: -208;
+  test-value: -209;
+  test-value: -210;
+  test-value: -211;
+  test-value: -212;
+  test-value: -213;
+  test-value: -214;
+  test-value: -215;
+  test-value: -216;
+  test-value: -217;
+  test-value: -218;
+  test-value: -219;
+  test-value: -220;
+  test-value: -221;
+  test-value: -222;
+  test-value: -223;
+  test-value: -224;
+  test-value: -225;
+  test-value: -226;
+  test-value: -227;
+  test-value: -228;
+  test-value: -229;
+  test-value: -230;
+  test-value: -231;
+  test-value: -232;
+  test-value: -233;
+  test-value: -234;
+  test-value: -235;
+  test-value: -236;
+  test-value: -237;
+  test-value: -238;
+  test-value: -239;
+  test-value: -240;
+  test-value: -241;
+  test-value: -242;
+  test-value: -243;
+  test-value: -244;
+  test-value: -245;
+  test-value: -246;
+  test-value: -247;
+  test-value: -248;
+  test-value: -249;
+  test-value: -250;
+  test-value: -251;
+  test-value: -252;
+  test-value: -253;
+  test-value: -254;
+  test-value: -255; }
+
+floatingTruncateTest {
+  test-value: 3.14;
+  test-value: 6.28;
+  test-value: 9.42;
+  test-value: 12.56;
+  test-value: 15.7;
+  test-value: 18.84;
+  test-value: 21.99;
+  test-value: 25.13;
+  test-value: 28.27;
+  test-value: 31.41;
+  test-value: 34.55;
+  test-value: 37.69;
+  test-value: 40.84;
+  test-value: 43.98;
+  test-value: 47.12;
+  test-value: 50.26;
+  test-value: 53.4;
+  test-value: 56.54;
+  test-value: 59.69;
+  test-value: 62.83;
+  test-value: 65.97;
+  test-value: 69.11;
+  test-value: 72.25;
+  test-value: 75.39;
+  test-value: 78.53;
+  test-value: 81.68;
+  test-value: 84.82;
+  test-value: 87.96;
+  test-value: 91.1;
+  test-value: 94.24;
+  test-value: 97.38;
+  test-value: 100.53;
+  test-value: 103.67;
+  test-value: 106.81;
+  test-value: 109.95;
+  test-value: 113.09;
+  test-value: 116.23;
+  test-value: 119.38;
+  test-value: 122.52;
+  test-value: 125.66;
+  test-value: 128.8;
+  test-value: 131.94;
+  test-value: 135.08;
+  test-value: 138.23;
+  test-value: 141.37;
+  test-value: 144.51;
+  test-value: 147.65;
+  test-value: 150.79;
+  test-value: 153.93;
+  test-value: 157.07;
+  test-value: 160.22;
+  test-value: 163.36;
+  test-value: 166.5;
+  test-value: 169.64;
+  test-value: 172.78;
+  test-value: 175.92;
+  test-value: 179.07;
+  test-value: 182.21;
+  test-value: 185.35;
+  test-value: 188.49;
+  test-value: 191.63;
+  test-value: 194.77;
+  test-value: 197.92;
+  test-value: 201.06;
+  test-value: 204.2;
+  test-value: 207.34;
+  test-value: 210.48;
+  test-value: 213.62;
+  test-value: 216.76;
+  test-value: 219.91;
+  test-value: 223.05;
+  test-value: 226.19;
+  test-value: 229.33;
+  test-value: 232.47;
+  test-value: 235.61;
+  test-value: 238.76;
+  test-value: 241.9;
+  test-value: 245.04;
+  test-value: 248.18;
+  test-value: 251.32;
+  test-value: 254.46;
+  test-value: 257.61;
+  test-value: 260.75;
+  test-value: 263.89;
+  test-value: 267.03;
+  test-value: 270.17;
+  test-value: 273.31;
+  test-value: 276.46;
+  test-value: 279.6;
+  test-value: 282.74;
+  test-value: 285.88;
+  test-value: 289.02;
+  test-value: 292.16;
+  test-value: 295.3;
+  test-value: 298.45;
+  test-value: 301.59;
+  test-value: 304.73;
+  test-value: 307.87;
+  test-value: 311.01;
+  test-value: 314.15;
+  test-value: 317.3;
+  test-value: 320.44;
+  test-value: 323.58;
+  test-value: 326.72;
+  test-value: 329.86;
+  test-value: 333;
+  test-value: 336.15;
+  test-value: 339.29;
+  test-value: 342.43;
+  test-value: 345.57;
+  test-value: 348.71;
+  test-value: 351.85;
+  test-value: 354.99;
+  test-value: 358.14;
+  test-value: 361.28;
+  test-value: 364.42;
+  test-value: 367.56;
+  test-value: 370.7;
+  test-value: 373.84;
+  test-value: 376.99;
+  test-value: 380.13;
+  test-value: 383.27;
+  test-value: 386.41;
+  test-value: 389.55;
+  test-value: 392.69;
+  test-value: 395.84;
+  test-value: 398.98;
+  test-value: 402.12;
+  test-value: 405.26;
+  test-value: 408.4;
+  test-value: 411.54;
+  test-value: 414.69;
+  test-value: 417.83;
+  test-value: 420.97;
+  test-value: 424.11;
+  test-value: 427.25;
+  test-value: 430.39;
+  test-value: 433.53;
+  test-value: 436.68;
+  test-value: 439.82;
+  test-value: 442.96;
+  test-value: 446.1;
+  test-value: 449.24;
+  test-value: 452.38;
+  test-value: 455.53;
+  test-value: 458.67;
+  test-value: 461.81;
+  test-value: 464.95;
+  test-value: 468.09;
+  test-value: 471.23;
+  test-value: 474.38;
+  test-value: 477.52;
+  test-value: 480.66;
+  test-value: 483.8;
+  test-value: 486.94;
+  test-value: 490.08;
+  test-value: 493.23;
+  test-value: 496.37;
+  test-value: 499.51;
+  test-value: 502.65;
+  test-value: 505.79;
+  test-value: 508.93;
+  test-value: 512.07;
+  test-value: 515.22;
+  test-value: 518.36;
+  test-value: 521.5;
+  test-value: 524.64;
+  test-value: 527.78;
+  test-value: 530.92;
+  test-value: 534.07;
+  test-value: 537.21;
+  test-value: 540.35;
+  test-value: 543.49;
+  test-value: 546.63;
+  test-value: 549.77;
+  test-value: 552.92;
+  test-value: 556.06;
+  test-value: 559.2;
+  test-value: 562.34;
+  test-value: 565.48;
+  test-value: 568.62;
+  test-value: 571.76;
+  test-value: 574.91;
+  test-value: 578.05;
+  test-value: 581.19;
+  test-value: 584.33;
+  test-value: 587.47;
+  test-value: 590.61;
+  test-value: 593.76;
+  test-value: 596.9;
+  test-value: 600.04;
+  test-value: 603.18;
+  test-value: 606.32;
+  test-value: 609.46;
+  test-value: 612.61;
+  test-value: 615.75;
+  test-value: 618.89;
+  test-value: 622.03;
+  test-value: 625.17;
+  test-value: 628.31;
+  test-value: 631.46;
+  test-value: 634.6;
+  test-value: 637.74;
+  test-value: 640.88;
+  test-value: 644.02;
+  test-value: 647.16;
+  test-value: 650.3;
+  test-value: 653.45;
+  test-value: 656.59;
+  test-value: 659.73;
+  test-value: 662.87;
+  test-value: 666.01;
+  test-value: 669.15;
+  test-value: 672.3;
+  test-value: 675.44;
+  test-value: 678.58;
+  test-value: 681.72;
+  test-value: 684.86;
+  test-value: 688;
+  test-value: 691.15;
+  test-value: 694.29;
+  test-value: 697.43;
+  test-value: 700.57;
+  test-value: 703.71;
+  test-value: 706.85;
+  test-value: 709.99;
+  test-value: 713.14;
+  test-value: 716.28;
+  test-value: 719.42;
+  test-value: 722.56;
+  test-value: 725.7;
+  test-value: 728.84;
+  test-value: 731.99;
+  test-value: 735.13;
+  test-value: 738.27;
+  test-value: 741.41;
+  test-value: 744.55;
+  test-value: 747.69;
+  test-value: 750.84;
+  test-value: 753.98;
+  test-value: 757.12;
+  test-value: 760.26;
+  test-value: 763.4;
+  test-value: 766.54;
+  test-value: 769.69;
+  test-value: 772.83;
+  test-value: 775.97;
+  test-value: 779.11;
+  test-value: 782.25;
+  test-value: 785.39;
+  test-value: 788.53;
+  test-value: 791.68;
+  test-value: 794.82;
+  test-value: 797.96;
+  test-value: 801.1; }
+
+floatingTruncateTest3Places {
+  test-value: 3.141;
+  test-value: 6.283;
+  test-value: 9.424;
+  test-value: 12.566;
+  test-value: 15.707;
+  test-value: 18.849;
+  test-value: 21.991;
+  test-value: 25.132;
+  test-value: 28.274;
+  test-value: 31.415;
+  test-value: 34.557;
+  test-value: 37.699;
+  test-value: 40.84;
+  test-value: 43.982;
+  test-value: 47.123;
+  test-value: 50.265;
+  test-value: 53.407;
+  test-value: 56.548;
+  test-value: 59.69;
+  test-value: 62.831;
+  test-value: 65.973;
+  test-value: 69.115;
+  test-value: 72.256;
+  test-value: 75.398;
+  test-value: 78.539;
+  test-value: 81.681;
+  test-value: 84.822;
+  test-value: 87.964;
+  test-value: 91.106;
+  test-value: 94.247;
+  test-value: 97.389;
+  test-value: 100.53;
+  test-value: 103.672;
+  test-value: 106.814;
+  test-value: 109.955;
+  test-value: 113.097;
+  test-value: 116.238;
+  test-value: 119.38;
+  test-value: 122.522;
+  test-value: 125.663;
+  test-value: 128.805;
+  test-value: 131.946;
+  test-value: 135.088;
+  test-value: 138.23;
+  test-value: 141.371;
+  test-value: 144.513;
+  test-value: 147.654;
+  test-value: 150.796;
+  test-value: 153.938;
+  test-value: 157.079;
+  test-value: 160.221;
+  test-value: 163.362;
+  test-value: 166.504;
+  test-value: 169.645;
+  test-value: 172.787;
+  test-value: 175.929;
+  test-value: 179.07;
+  test-value: 182.212;
+  test-value: 185.353;
+  test-value: 188.495;
+  test-value: 191.637;
+  test-value: 194.778;
+  test-value: 197.92;
+  test-value: 201.061;
+  test-value: 204.203;
+  test-value: 207.345;
+  test-value: 210.486;
+  test-value: 213.628;
+  test-value: 216.769;
+  test-value: 219.911;
+  test-value: 223.053;
+  test-value: 226.194;
+  test-value: 229.336;
+  test-value: 232.477;
+  test-value: 235.619;
+  test-value: 238.761;
+  test-value: 241.902;
+  test-value: 245.044;
+  test-value: 248.185;
+  test-value: 251.327;
+  test-value: 254.468;
+  test-value: 257.61;
+  test-value: 260.752;
+  test-value: 263.893;
+  test-value: 267.035;
+  test-value: 270.176;
+  test-value: 273.318;
+  test-value: 276.46;
+  test-value: 279.601;
+  test-value: 282.743;
+  test-value: 285.884;
+  test-value: 289.026;
+  test-value: 292.168;
+  test-value: 295.309;
+  test-value: 298.451;
+  test-value: 301.592;
+  test-value: 304.734;
+  test-value: 307.876;
+  test-value: 311.017;
+  test-value: 314.159;
+  test-value: 317.3;
+  test-value: 320.442;
+  test-value: 323.584;
+  test-value: 326.725;
+  test-value: 329.867;
+  test-value: 333.008;
+  test-value: 336.15;
+  test-value: 339.291;
+  test-value: 342.433;
+  test-value: 345.575;
+  test-value: 348.716;
+  test-value: 351.858;
+  test-value: 354.999;
+  test-value: 358.141;
+  test-value: 361.283;
+  test-value: 364.424;
+  test-value: 367.566;
+  test-value: 370.707;
+  test-value: 373.849;
+  test-value: 376.991;
+  test-value: 380.132;
+  test-value: 383.274;
+  test-value: 386.415;
+  test-value: 389.557;
+  test-value: 392.699;
+  test-value: 395.84;
+  test-value: 398.982;
+  test-value: 402.123;
+  test-value: 405.265;
+  test-value: 408.407;
+  test-value: 411.548;
+  test-value: 414.69;
+  test-value: 417.831;
+  test-value: 420.973;
+  test-value: 424.115;
+  test-value: 427.256;
+  test-value: 430.398;
+  test-value: 433.539;
+  test-value: 436.681;
+  test-value: 439.822;
+  test-value: 442.964;
+  test-value: 446.106;
+  test-value: 449.247;
+  test-value: 452.389;
+  test-value: 455.53;
+  test-value: 458.672;
+  test-value: 461.814;
+  test-value: 464.955;
+  test-value: 468.097;
+  test-value: 471.238;
+  test-value: 474.38;
+  test-value: 477.522;
+  test-value: 480.663;
+  test-value: 483.805;
+  test-value: 486.946;
+  test-value: 490.088;
+  test-value: 493.23;
+  test-value: 496.371;
+  test-value: 499.513;
+  test-value: 502.654;
+  test-value: 505.796;
+  test-value: 508.937;
+  test-value: 512.079;
+  test-value: 515.221;
+  test-value: 518.362;
+  test-value: 521.504;
+  test-value: 524.645;
+  test-value: 527.787;
+  test-value: 530.929;
+  test-value: 534.07;
+  test-value: 537.212;
+  test-value: 540.353;
+  test-value: 543.495;
+  test-value: 546.637;
+  test-value: 549.778;
+  test-value: 552.92;
+  test-value: 556.061;
+  test-value: 559.203;
+  test-value: 562.345;
+  test-value: 565.486;
+  test-value: 568.628;
+  test-value: 571.769;
+  test-value: 574.911;
+  test-value: 578.053;
+  test-value: 581.194;
+  test-value: 584.336;
+  test-value: 587.477;
+  test-value: 590.619;
+  test-value: 593.76;
+  test-value: 596.902;
+  test-value: 600.044;
+  test-value: 603.185;
+  test-value: 606.327;
+  test-value: 609.468;
+  test-value: 612.61;
+  test-value: 615.752;
+  test-value: 618.893;
+  test-value: 622.035;
+  test-value: 625.176;
+  test-value: 628.318;
+  test-value: 631.46;
+  test-value: 634.601;
+  test-value: 637.743;
+  test-value: 640.884;
+  test-value: 644.026;
+  test-value: 647.168;
+  test-value: 650.309;
+  test-value: 653.451;
+  test-value: 656.592;
+  test-value: 659.734;
+  test-value: 662.876;
+  test-value: 666.017;
+  test-value: 669.159;
+  test-value: 672.3;
+  test-value: 675.442;
+  test-value: 678.583;
+  test-value: 681.725;
+  test-value: 684.867;
+  test-value: 688.008;
+  test-value: 691.15;
+  test-value: 694.291;
+  test-value: 697.433;
+  test-value: 700.575;
+  test-value: 703.716;
+  test-value: 706.858;
+  test-value: 709.999;
+  test-value: 713.141;
+  test-value: 716.283;
+  test-value: 719.424;
+  test-value: 722.566;
+  test-value: 725.707;
+  test-value: 728.849;
+  test-value: 731.991;
+  test-value: 735.132;
+  test-value: 738.274;
+  test-value: 741.415;
+  test-value: 744.557;
+  test-value: 747.699;
+  test-value: 750.84;
+  test-value: 753.982;
+  test-value: 757.123;
+  test-value: 760.265;
+  test-value: 763.407;
+  test-value: 766.548;
+  test-value: 769.69;
+  test-value: 772.831;
+  test-value: 775.973;
+  test-value: 779.114;
+  test-value: 782.256;
+  test-value: 785.398;
+  test-value: 788.539;
+  test-value: 791.681;
+  test-value: 794.822;
+  test-value: 797.964;
+  test-value: 801.106; }
+
+floatingTruncateTest5Places {
+  test-value: 3.14151;
+  test-value: 6.28303;
+  test-value: 9.42455;
+  test-value: 12.56607;
+  test-value: 15.70759;
+  test-value: 18.84911;
+  test-value: 21.99062;
+  test-value: 25.13214;
+  test-value: 28.27366;
+  test-value: 31.41518;
+  test-value: 34.55671;
+  test-value: 37.69823;
+  test-value: 40.83975;
+  test-value: 43.98127;
+  test-value: 47.12279;
+  test-value: 50.26431;
+  test-value: 53.40583;
+  test-value: 56.54735;
+  test-value: 59.68887;
+  test-value: 62.83039;
+  test-value: 65.9719;
+  test-value: 69.11342;
+  test-value: 72.25494;
+  test-value: 75.39646;
+  test-value: 78.53798;
+  test-value: 81.6795;
+  test-value: 84.82102;
+  test-value: 87.96254;
+  test-value: 91.10406;
+  test-value: 94.24558;
+  test-value: 97.3871;
+  test-value: 100.52862;
+  test-value: 103.67014;
+  test-value: 106.81166;
+  test-value: 109.95317;
+  test-value: 113.09468;
+  test-value: 116.2362;
+  test-value: 119.37772;
+  test-value: 122.51924;
+  test-value: 125.66076;
+  test-value: 128.80228;
+  test-value: 131.94381;
+  test-value: 135.08532;
+  test-value: 138.22685;
+  test-value: 141.36836;
+  test-value: 144.50989;
+  test-value: 147.6514;
+  test-value: 150.79292;
+  test-value: 153.93443;
+  test-value: 157.07596;
+  test-value: 160.21747;
+  test-value: 163.359;
+  test-value: 166.50051;
+  test-value: 169.64204;
+  test-value: 172.78355;
+  test-value: 175.92508;
+  test-value: 179.06659;
+  test-value: 182.20812;
+  test-value: 185.34963;
+  test-value: 188.49116;
+  test-value: 191.63267;
+  test-value: 194.77419;
+  test-value: 197.9157;
+  test-value: 201.05723;
+  test-value: 204.19874;
+  test-value: 207.34027;
+  test-value: 210.48178;
+  test-value: 213.62331;
+  test-value: 216.76482;
+  test-value: 219.90635;
+  test-value: 223.04786;
+  test-value: 226.18939;
+  test-value: 229.3309;
+  test-value: 232.47243;
+  test-value: 235.61394;
+  test-value: 238.75545;
+  test-value: 241.89698;
+  test-value: 245.03849;
+  test-value: 248.18002;
+  test-value: 251.32153;
+  test-value: 254.46306;
+  test-value: 257.60457;
+  test-value: 260.7461;
+  test-value: 263.88762;
+  test-value: 267.02913;
+  test-value: 270.17065;
+  test-value: 273.31218;
+  test-value: 276.4537;
+  test-value: 279.59521;
+  test-value: 282.73673;
+  test-value: 285.87824;
+  test-value: 289.01976;
+  test-value: 292.16129;
+  test-value: 295.30281;
+  test-value: 298.44432;
+  test-value: 301.58584;
+  test-value: 304.72737;
+  test-value: 307.86889;
+  test-value: 311.0104;
+  test-value: 314.15192;
+  test-value: 317.29345;
+  test-value: 320.43497;
+  test-value: 323.57648;
+  test-value: 326.718;
+  test-value: 329.85951;
+  test-value: 333.00103;
+  test-value: 336.14256;
+  test-value: 339.28408;
+  test-value: 342.42559;
+  test-value: 345.56711;
+  test-value: 348.70864;
+  test-value: 351.85016;
+  test-value: 354.99167;
+  test-value: 358.13319;
+  test-value: 361.27472;
+  test-value: 364.41622;
+  test-value: 367.55774;
+  test-value: 370.69927;
+  test-value: 373.84079;
+  test-value: 376.9823;
+  test-value: 380.12382;
+  test-value: 383.26535;
+  test-value: 386.40687;
+  test-value: 389.54838;
+  test-value: 392.6899;
+  test-value: 395.83143;
+  test-value: 398.97295;
+  test-value: 402.11446;
+  test-value: 405.25598;
+  test-value: 408.39749;
+  test-value: 411.53901;
+  test-value: 414.68054;
+  test-value: 417.82206;
+  test-value: 420.96357;
+  test-value: 424.10509;
+  test-value: 427.24662;
+  test-value: 430.38814;
+  test-value: 433.52965;
+  test-value: 436.67117;
+  test-value: 439.8127;
+  test-value: 442.95422;
+  test-value: 446.09573;
+  test-value: 449.23725;
+  test-value: 452.37876;
+  test-value: 455.52028;
+  test-value: 458.66181;
+  test-value: 461.80333;
+  test-value: 464.94484;
+  test-value: 468.08636;
+  test-value: 471.22789;
+  test-value: 474.36941;
+  test-value: 477.51092;
+  test-value: 480.65244;
+  test-value: 483.79397;
+  test-value: 486.93549;
+  test-value: 490.077;
+  test-value: 493.21852;
+  test-value: 496.36004;
+  test-value: 499.50155;
+  test-value: 502.64307;
+  test-value: 505.7846;
+  test-value: 508.92612;
+  test-value: 512.06763;
+  test-value: 515.20915;
+  test-value: 518.35068;
+  test-value: 521.4922;
+  test-value: 524.63372;
+  test-value: 527.77524;
+  test-value: 530.91675;
+  test-value: 534.05827;
+  test-value: 537.19979;
+  test-value: 540.34131;
+  test-value: 543.48283;
+  test-value: 546.62435;
+  test-value: 549.76586;
+  test-value: 552.90738;
+  test-value: 556.0489;
+  test-value: 559.19042;
+  test-value: 562.33195;
+  test-value: 565.47347;
+  test-value: 568.61499;
+  test-value: 571.75651;
+  test-value: 574.89802;
+  test-value: 578.03953;
+  test-value: 581.18106;
+  test-value: 584.32258;
+  test-value: 587.4641;
+  test-value: 590.60562;
+  test-value: 593.74713;
+  test-value: 596.88865;
+  test-value: 600.03017;
+  test-value: 603.17169;
+  test-value: 606.31322;
+  test-value: 609.45474;
+  test-value: 612.59626;
+  test-value: 615.73778;
+  test-value: 618.87929;
+  test-value: 622.0208;
+  test-value: 625.16232;
+  test-value: 628.30385;
+  test-value: 631.44537;
+  test-value: 634.58689;
+  test-value: 637.72841;
+  test-value: 640.86992;
+  test-value: 644.01144;
+  test-value: 647.15296;
+  test-value: 650.29448;
+  test-value: 653.43601;
+  test-value: 656.57753;
+  test-value: 659.71905;
+  test-value: 662.86055;
+  test-value: 666.00207;
+  test-value: 669.14359;
+  test-value: 672.28512;
+  test-value: 675.42664;
+  test-value: 678.56816;
+  test-value: 681.70968;
+  test-value: 684.85119;
+  test-value: 687.99271;
+  test-value: 691.13423;
+  test-value: 694.27575;
+  test-value: 697.41728;
+  test-value: 700.5588;
+  test-value: 703.70032;
+  test-value: 706.84182;
+  test-value: 709.98334;
+  test-value: 713.12486;
+  test-value: 716.26639;
+  test-value: 719.40791;
+  test-value: 722.54943;
+  test-value: 725.69095;
+  test-value: 728.83246;
+  test-value: 731.97398;
+  test-value: 735.1155;
+  test-value: 738.25702;
+  test-value: 741.39855;
+  test-value: 744.54007;
+  test-value: 747.68159;
+  test-value: 750.82309;
+  test-value: 753.96461;
+  test-value: 757.10613;
+  test-value: 760.24765;
+  test-value: 763.38918;
+  test-value: 766.5307;
+  test-value: 769.67222;
+  test-value: 772.81374;
+  test-value: 775.95525;
+  test-value: 779.09677;
+  test-value: 782.23829;
+  test-value: 785.37981;
+  test-value: 788.52134;
+  test-value: 791.66285;
+  test-value: 794.80436;
+  test-value: 797.94588;
+  test-value: 801.0874; }
+
+aproxequalTest {
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */
+  test-value: true;
+  test-value: false;
+  /* true/false */ }
+
+notaproxequalTest {
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true;
+  /* false/true */
+  test-value: false;
+  test-value: true; }
+
+nthrootsTest {
+  /* Square Roots */
+  test-value: 2.0;
+  test-value: 2.0;
+  test-value: 3.0;
+  test-value: 3.0;
+  test-value: 4.0;
+  test-value: 4.0;
+  test-value: 5.0;
+  test-value: 5.0;
+  test-value: 6.0;
+  test-value: 6.0;
+  test-value: 7.0;
+  test-value: 7.0;
+  test-value: 8.0;
+  test-value: 8.0;
+  test-value: 9.0;
+  test-value: 9.0;
+  /* */
+  /* */
+  /* Cube Roots */
+  test-value: 2.0;
+  test-value: 3.0;
+  test-value: 4.0;
+  test-value: 5.0;
+  test-value: 6.0;
+  test-value: 7.0;
+  test-value: 8.0;
+  test-value: 9.0;
+  /* */
+  /* */
+  /* n=4 */
+  test-value: 2.0;
+  test-value: 3.0;
+  test-value: 4.0;
+  test-value: 5.0;
+  test-value: 6.0;
+  test-value: 7.0;
+  test-value: 8.0;
+  test-value: 9.0;
+  /* */
+  /* */
+  /* n=5 */
+  test-value: 2.0;
+  test-value: 3.0;
+  test-value: 4.0;
+  test-value: 5.0;
+  test-value: 6.0;
+  test-value: 7.0;
+  test-value: 8;
+  test-value: 9;
+  /* */ }
+
+exponentsTest {
+  /* Squares */
+  test-value: 1;
+  test-value: 4;
+  test-value: 9;
+  test-value: 16;
+  test-value: 25;
+  test-value: 36;
+  test-value: 49;
+  test-value: 64;
+  test-value: 81;
+  /* */
+  /* */
+  /* Cubes */
+  test-value: 1;
+  test-value: 8;
+  test-value: 27;
+  test-value: 64;
+  test-value: 125;
+  test-value: 216;
+  test-value: 343;
+  test-value: 512;
+  test-value: 729;
+  /* */
+  /* */
+  /* Full Suite */
+  /* */
+  /* */
+  /* 1s */
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  /* 2s */
+  test-value: 2;
+  test-value: 4;
+  test-value: 8;
+  test-value: 16;
+  test-value: 32;
+  test-value: 64;
+  test-value: 128;
+  test-value: 256;
+  test-value: 512;
+  /* 3s */
+  test-value: 3;
+  test-value: 9;
+  test-value: 27;
+  test-value: 81;
+  test-value: 243;
+  test-value: 729;
+  test-value: 2187;
+  test-value: 6561;
+  test-value: 19683;
+  /* 4s */
+  test-value: 4;
+  test-value: 16;
+  test-value: 64;
+  test-value: 256;
+  test-value: 1024;
+  test-value: 4096;
+  test-value: 16384;
+  test-value: 65536;
+  test-value: 262144;
+  /* 5s */
+  test-value: 5;
+  test-value: 25;
+  test-value: 125;
+  test-value: 625;
+  test-value: 3125;
+  test-value: 15625;
+  test-value: 78125;
+  test-value: 390625;
+  test-value: 1953125;
+  /* 6s */
+  test-value: 6;
+  test-value: 36;
+  test-value: 216;
+  test-value: 1296;
+  test-value: 7776;
+  test-value: 46656;
+  test-value: 279936;
+  test-value: 1679616;
+  test-value: 10077696;
+  /* 7s */
+  test-value: 7;
+  test-value: 49;
+  test-value: 343;
+  test-value: 2401;
+  test-value: 16807;
+  test-value: 117649;
+  test-value: 823543;
+  test-value: 5764801;
+  test-value: 40353607;
+  /* 8s */
+  test-value: 8;
+  test-value: 64;
+  test-value: 512;
+  test-value: 4096;
+  test-value: 32768;
+  test-value: 262144;
+  test-value: 2097152;
+  test-value: 16777216;
+  test-value: 134217728;
+  /* 9s */
+  test-value: 9;
+  test-value: 81;
+  test-value: 729;
+  test-value: 6561;
+  test-value: 59049;
+  test-value: 531441;
+  test-value: 4782969;
+  test-value: 43046721;
+  test-value: 387420489;
+  /* */
+  /* */
+  /* Fractions */
+  /* 1s */
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  test-value: 1;
+  /* 2s */
+  test-value: 2;
+  test-value: 1.41422;
+  test-value: 1.25992;
+  test-value: 1.18921;
+  test-value: 1.1487;
+  test-value: 1.12246;
+  test-value: 1.10409;
+  test-value: 1.09051;
+  test-value: 1.08006;
+  test-value: 4;
+  test-value: 2.0;
+  test-value: 1.5874;
+  test-value: 1.41421;
+  test-value: 1.31951;
+  test-value: 1.25992;
+  test-value: 1.21901;
+  test-value: 1.18921;
+  test-value: 1.16653;
+  test-value: 8;
+  test-value: 2.82843;
+  test-value: 2.0;
+  test-value: 1.68179;
+  test-value: 1.51572;
+  test-value: 1.41421;
+  test-value: 1.3459;
+  test-value: 1.29684;
+  test-value: 1.25992;
+  test-value: 16;
+  test-value: 4.0;
+  test-value: 2.51984;
+  test-value: 2.0;
+  test-value: 1.7411;
+  test-value: 1.5874;
+  test-value: 1.48599;
+  test-value: 1.41421;
+  test-value: 1.36079;
+  test-value: 32;
+  test-value: 5.65685;
+  test-value: 3.1748;
+  test-value: 2.37841;
+  test-value: 2.0;
+  test-value: 1.7818;
+  test-value: 1.64067;
+  test-value: 1.54221;
+  test-value: 1.46973;
+  test-value: 64;
+  test-value: 8.0;
+  test-value: 4.0;
+  test-value: 2.82843;
+  test-value: 2.2974;
+  test-value: 2.0;
+  test-value: 1.81145;
+  test-value: 1.68179;
+  test-value: 1.5874;
+  test-value: 128;
+  test-value: 11.31371;
+  test-value: 5.03968;
+  test-value: 3.36359;
+  test-value: 2.63902;
+  test-value: 2.24492;
+  test-value: 2.0;
+  test-value: 1.83401;
+  test-value: 1.71449;
+  test-value: 256;
+  test-value: 16.0;
+  test-value: 6.3496;
+  test-value: 4.0;
+  test-value: 3.03143;
+  test-value: 2.51984;
+  test-value: 2.20818;
+  test-value: 2.0;
+  test-value: 1.85175;
+  test-value: 512;
+  test-value: 22.62742;
+  test-value: 8.0;
+  test-value: 4.75683;
+  test-value: 3.4822;
+  test-value: 2.82843;
+  test-value: 2.43803;
+  test-value: 2.18102;
+  test-value: 2.0;
+  /* 3s */
+  test-value: 3;
+  test-value: 1.73205;
+  test-value: 1.44225;
+  test-value: 1.31607;
+  test-value: 1.24573;
+  test-value: 1.20094;
+  test-value: 1.16993;
+  test-value: 1.1472;
+  test-value: 1.12983;
+  test-value: 9;
+  test-value: 3.0;
+  test-value: 2.08008;
+  test-value: 1.73205;
+  test-value: 1.55185;
+  test-value: 1.44225;
+  test-value: 1.36874;
+  test-value: 1.31607;
+  test-value: 1.27652;
+  test-value: 27;
+  test-value: 5.19615;
+  test-value: 3.0;
+  test-value: 2.27951;
+  test-value: 1.93318;
+  test-value: 1.73205;
+  test-value: 1.60133;
+  test-value: 1.5098;
+  test-value: 1.44225;
+  test-value: 81;
+  test-value: 9.0;
+  test-value: 4.32675;
+  test-value: 3.0;
+  test-value: 2.40822;
+  test-value: 2.08008;
+  test-value: 1.87344;
+  test-value: 1.73205;
+  test-value: 1.6295;
+  test-value: 243;
+  test-value: 15.58846;
+  test-value: 6.24025;
+  test-value: 3.94822;
+  test-value: 3.0;
+  test-value: 2.49805;
+  test-value: 2.1918;
+  test-value: 1.98701;
+  test-value: 1.84106;
+  test-value: 729;
+  test-value: 27.0;
+  test-value: 9.0;
+  test-value: 5.19615;
+  test-value: 3.73719;
+  test-value: 3.0;
+  test-value: 2.56425;
+  test-value: 2.27951;
+  test-value: 2.08008;
+  test-value: 2187;
+  test-value: 46.76537;
+  test-value: 12.98025;
+  test-value: 6.83852;
+  test-value: 4.65554;
+  test-value: 3.60281;
+  test-value: 3.0;
+  test-value: 2.61506;
+  test-value: 2.35014;
+  test-value: 6561;
+  test-value: 81.0;
+  test-value: 18.72075;
+  test-value: 9.0;
+  test-value: 5.79955;
+  test-value: 4.32675;
+  test-value: 3.50979;
+  test-value: 3.0;
+  test-value: 2.65526;
+  test-value: 19683;
+  test-value: 140.29612;
+  test-value: 27.0;
+  test-value: 11.84467;
+  test-value: 7.22467;
+  test-value: 5.19615;
+  test-value: 4.10621;
+  test-value: 3.44161;
+  test-value: 3.0;
+  /* 4s */
+  test-value: 4;
+  test-value: 2.0;
+  test-value: 1.5874;
+  test-value: 1.41421;
+  test-value: 1.31951;
+  test-value: 1.25992;
+  test-value: 1.21901;
+  test-value: 1.18921;
+  test-value: 1.16653;
+  test-value: 16;
+  test-value: 4.0;
+  test-value: 2.51984;
+  test-value: 2.0;
+  test-value: 1.7411;
+  test-value: 1.5874;
+  test-value: 1.48599;
+  test-value: 1.41421;
+  test-value: 1.36079;
+  test-value: 64;
+  test-value: 8.0;
+  test-value: 4.0;
+  test-value: 2.82843;
+  test-value: 2.2974;
+  test-value: 2.0;
+  test-value: 1.81145;
+  test-value: 1.68179;
+  test-value: 1.5874;
+  test-value: 256;
+  test-value: 16.0;
+  test-value: 6.3496;
+  test-value: 4.0;
+  test-value: 3.03143;
+  test-value: 2.51984;
+  test-value: 2.20818;
+  test-value: 2.0;
+  test-value: 1.85175;
+  test-value: 1024;
+  test-value: 32.0;
+  test-value: 10.07937;
+  test-value: 5.65685;
+  test-value: 4.0;
+  test-value: 3.1748;
+  test-value: 2.6918;
+  test-value: 2.37841;
+  test-value: 2.16012;
+  test-value: 4096;
+  test-value: 64.0;
+  test-value: 16.0;
+  test-value: 8.0;
+  test-value: 5.27803;
+  test-value: 4.0;
+  test-value: 3.28134;
+  test-value: 2.82843;
+  test-value: 2.51984;
+  test-value: 16384;
+  test-value: 128.0;
+  test-value: 25.39842;
+  test-value: 11.31371;
+  test-value: 6.9644;
+  test-value: 5.03968;
+  test-value: 4.0;
+  test-value: 3.36359;
+  test-value: 2.93947;
+  test-value: 65536;
+  test-value: 256.0;
+  test-value: 40.31747;
+  test-value: 16.0;
+  test-value: 9.18959;
+  test-value: 6.3496;
+  test-value: 4.87605;
+  test-value: 4.0;
+  test-value: 3.42898;
+  test-value: 262144;
+  test-value: 512.0;
+  test-value: 64;
+  test-value: 22.62742;
+  test-value: 12.12573;
+  test-value: 8.0;
+  test-value: 5.94398;
+  test-value: 4.75683;
+  test-value: 4;
+  /* 5s */
+  test-value: 5;
+  test-value: 2.23607;
+  test-value: 1.70998;
+  test-value: 1.49535;
+  test-value: 1.37973;
+  test-value: 1.30766;
+  test-value: 1.2585;
+  test-value: 1.22284;
+  test-value: 1.19581;
+  test-value: 25;
+  test-value: 5.0;
+  test-value: 2.92402;
+  test-value: 2.23607;
+  test-value: 1.90365;
+  test-value: 1.70998;
+  test-value: 1.58382;
+  test-value: 1.49535;
+  test-value: 1.42997;
+  test-value: 125;
+  test-value: 11.18034;
+  test-value: 5.0;
+  test-value: 3.3437;
+  test-value: 2.62653;
+  test-value: 2.23607;
+  test-value: 1.99324;
+  test-value: 1.82858;
+  test-value: 1.70998;
+  test-value: 625;
+  test-value: 25.0;
+  test-value: 8.54988;
+  test-value: 5.0;
+  test-value: 3.6239;
+  test-value: 2.92402;
+  test-value: 2.50848;
+  test-value: 2.23607;
+  test-value: 2.04481;
+  test-value: 3125;
+  test-value: 55.9017;
+  test-value: 14.62009;
+  test-value: 7.47674;
+  test-value: 5.0;
+  test-value: 3.82362;
+  test-value: 3.15693;
+  test-value: 2.73436;
+  test-value: 2.44521;
+  test-value: 15625;
+  test-value: 125.0;
+  test-value: 25.0;
+  test-value: 11.18034;
+  test-value: 6.89865;
+  test-value: 5.0;
+  test-value: 3.97299;
+  test-value: 3.3437;
+  test-value: 2.92402;
+  test-value: 78125;
+  test-value: 279.5085;
+  test-value: 42.7494;
+  test-value: 16.71851;
+  test-value: 9.51827;
+  test-value: 6.5383;
+  test-value: 5.0;
+  test-value: 4.08883;
+  test-value: 3.49658;
+  test-value: 390625;
+  test-value: 625.0;
+  test-value: 73.10044;
+  test-value: 25.0;
+  test-value: 13.13264;
+  test-value: 8.54988;
+  test-value: 6.29249;
+  test-value: 5;
+  test-value: 4.18126;
+  test-value: 1953125;
+  test-value: 1397.54249;
+  test-value: 125.0;
+  test-value: 37.38372;
+  test-value: 18.11949;
+  test-value: 11.18034;
+  test-value: 7.9191;
+  test-value: 6.11422;
+  test-value: 5;
+  /* 6s */
+  test-value: 6;
+  test-value: 2.44949;
+  test-value: 1.81712;
+  test-value: 1.56508;
+  test-value: 1.43097;
+  test-value: 1.34801;
+  test-value: 1.29171;
+  test-value: 1.25103;
+  test-value: 1.22028;
+  test-value: 36;
+  test-value: 6.0;
+  test-value: 3.30193;
+  test-value: 2.44949;
+  test-value: 2.04767;
+  test-value: 1.81712;
+  test-value: 1.66851;
+  test-value: 1.56508;
+  test-value: 1.4891;
+  test-value: 216;
+  test-value: 14.69694;
+  test-value: 6.0;
+  test-value: 3.83366;
+  test-value: 2.93016;
+  test-value: 2.44949;
+  test-value: 2.15523;
+  test-value: 1.95797;
+  test-value: 1.81712;
+  test-value: 1296;
+  test-value: 36.0;
+  test-value: 10.90272;
+  test-value: 6.0;
+  test-value: 4.19296;
+  test-value: 3.30193;
+  test-value: 2.78393;
+  test-value: 2.44949;
+  test-value: 2.2174;
+  test-value: 7776;
+  test-value: 88.18163;
+  test-value: 19.81156;
+  test-value: 9.39051;
+  test-value: 6.0;
+  test-value: 4.45102;
+  test-value: 3.59602;
+  test-value: 3.06439;
+  test-value: 2.70587;
+  test-value: 46656;
+  test-value: 216;
+  test-value: 36.0;
+  test-value: 14.69694;
+  test-value: 8.58581;
+  test-value: 6.0;
+  test-value: 4.64501;
+  test-value: 3.83366;
+  test-value: 3.30193;
+  test-value: 279936;
+  test-value: 529.08978;
+  test-value: 65.41634;
+  test-value: 23.00195;
+  test-value: 12.28604;
+  test-value: 8.08804;
+  test-value: 6.0;
+  test-value: 4.79604;
+  test-value: 4.02929;
+  test-value: 1679616;
+  test-value: 1296;
+  test-value: 118.86938;
+  test-value: 36;
+  test-value: 17.58094;
+  test-value: 10.90272;
+  test-value: 7.75025;
+  test-value: 6.0;
+  test-value: 4.91688;
+  test-value: 10077696;
+  test-value: 3174.53871;
+  test-value: 216;
+  test-value: 56.34304;
+  test-value: 25.15778;
+  test-value: 14.69694;
+  test-value: 10.01106;
+  test-value: 7.5062;
+  test-value: 6.0;
+  /* 7s */
+  test-value: 7;
+  test-value: 2.64575;
+  test-value: 1.91293;
+  test-value: 1.62658;
+  test-value: 1.47577;
+  test-value: 1.38309;
+  test-value: 1.32047;
+  test-value: 1.27537;
+  test-value: 1.24137;
+  test-value: 49;
+  test-value: 7.0;
+  test-value: 3.65931;
+  test-value: 2.64575;
+  test-value: 2.17791;
+  test-value: 1.91293;
+  test-value: 1.74364;
+  test-value: 1.62658;
+  test-value: 1.54099;
+  test-value: 343;
+  test-value: 18.52026;
+  test-value: 7.0;
+  test-value: 4.30352;
+  test-value: 3.2141;
+  test-value: 2.64575;
+  test-value: 2.30242;
+  test-value: 2.07449;
+  test-value: 1.91293;
+  test-value: 2401;
+  test-value: 49.0;
+  test-value: 13.39052;
+  test-value: 7.0;
+  test-value: 4.74328;
+  test-value: 3.65931;
+  test-value: 3.04028;
+  test-value: 2.64575;
+  test-value: 2.37465;
+  test-value: 16807;
+  test-value: 129.64181;
+  test-value: 25.61514;
+  test-value: 11.38604;
+  test-value: 7.0;
+  test-value: 5.06114;
+  test-value: 4.01459;
+  test-value: 3.37432;
+  test-value: 2.94781;
+  test-value: 117649;
+  test-value: 343.0;
+  test-value: 49.0;
+  test-value: 18.52026;
+  test-value: 10.33041;
+  test-value: 7;
+  test-value: 5.30115;
+  test-value: 4.30352;
+  test-value: 3.65931;
+  test-value: 823543;
+  test-value: 907.4927;
+  test-value: 93.73363;
+  test-value: 30.12462;
+  test-value: 15.24534;
+  test-value: 9.68161;
+  test-value: 7.0;
+  test-value: 5.48859;
+  test-value: 4.54254;
+  test-value: 5764801;
+  test-value: 2401;
+  test-value: 179.30598;
+  test-value: 49;
+  test-value: 22.49867;
+  test-value: 13.39052;
+  test-value: 9.24328;
+  test-value: 7;
+  test-value: 5.63895;
+  test-value: 40353607;
+  test-value: 6352.4489;
+  test-value: 343.0;
+  test-value: 79.70225;
+  test-value: 33.20293;
+  test-value: 18.52026;
+  test-value: 12.20547;
+  test-value: 8.92761;
+  test-value: 7;
+  /* 8s */
+  test-value: 8;
+  test-value: 2.82843;
+  test-value: 2.0;
+  test-value: 1.68179;
+  test-value: 1.51572;
+  test-value: 1.41421;
+  test-value: 1.3459;
+  test-value: 1.29684;
+  test-value: 1.25992;
+  test-value: 64;
+  test-value: 8.0;
+  test-value: 4.0;
+  test-value: 2.82843;
+  test-value: 2.2974;
+  test-value: 2.0;
+  test-value: 1.81145;
+  test-value: 1.68179;
+  test-value: 1.5874;
+  test-value: 512;
+  test-value: 22.62742;
+  test-value: 8.0;
+  test-value: 4.75683;
+  test-value: 3.4822;
+  test-value: 2.82843;
+  test-value: 2.43803;
+  test-value: 2.18102;
+  test-value: 2.0;
+  test-value: 4096;
+  test-value: 64.0;
+  test-value: 16.0;
+  test-value: 8.0;
+  test-value: 5.27803;
+  test-value: 4.0;
+  test-value: 3.28134;
+  test-value: 2.82843;
+  test-value: 2.51984;
+  test-value: 32768;
+  test-value: 181.01934;
+  test-value: 32.0;
+  test-value: 13.45434;
+  test-value: 8;
+  test-value: 5.65685;
+  test-value: 4.41636;
+  test-value: 3.66802;
+  test-value: 3.1748;
+  test-value: 262144;
+  test-value: 512.0;
+  test-value: 64;
+  test-value: 22.62742;
+  test-value: 12.12573;
+  test-value: 8.0;
+  test-value: 5.94398;
+  test-value: 4.75683;
+  test-value: 4;
+  test-value: 2097152;
+  test-value: 1448.15469;
+  test-value: 128.0;
+  test-value: 38.05463;
+  test-value: 18.37917;
+  test-value: 11.31371;
+  test-value: 8.0;
+  test-value: 6.16884;
+  test-value: 5.03968;
+  test-value: 16777216;
+  test-value: 4096.0;
+  test-value: 256;
+  test-value: 64;
+  test-value: 27.85762;
+  test-value: 16;
+  test-value: 10.7672;
+  test-value: 8;
+  test-value: 6.3496;
+  test-value: 134217728;
+  test-value: 11585.2375;
+  test-value: 512.0;
+  test-value: 107.63474;
+  test-value: 42.22425;
+  test-value: 22.62742;
+  test-value: 14.49158;
+  test-value: 10.37472;
+  test-value: 8;
+  /* 9s */
+  test-value: 9;
+  test-value: 3.0;
+  test-value: 2.08008;
+  test-value: 1.73205;
+  test-value: 1.55185;
+  test-value: 1.44225;
+  test-value: 1.36874;
+  test-value: 1.31607;
+  test-value: 1.27652;
+  test-value: 81;
+  test-value: 9.0;
+  test-value: 4.32675;
+  test-value: 3.0;
+  test-value: 2.40822;
+  test-value: 2.08008;
+  test-value: 1.87344;
+  test-value: 1.73205;
+  test-value: 1.6295;
+  test-value: 729;
+  test-value: 27.0;
+  test-value: 9.0;
+  test-value: 5.19615;
+  test-value: 3.73719;
+  test-value: 3.0;
+  test-value: 2.56425;
+  test-value: 2.27951;
+  test-value: 2.08008;
+  test-value: 6561;
+  test-value: 81.0;
+  test-value: 18.72075;
+  test-value: 9.0;
+  test-value: 5.79955;
+  test-value: 4.32675;
+  test-value: 3.50979;
+  test-value: 3.0;
+  test-value: 2.65526;
+  test-value: 59049;
+  test-value: 243.0;
+  test-value: 38.94074;
+  test-value: 15.58846;
+  test-value: 9;
+  test-value: 6.24025;
+  test-value: 4.80399;
+  test-value: 3.94822;
+  test-value: 3.38949;
+  test-value: 531441;
+  test-value: 729;
+  test-value: 81.0;
+  test-value: 27;
+  test-value: 13.96661;
+  test-value: 9;
+  test-value: 6.5754;
+  test-value: 5.19615;
+  test-value: 4.32675;
+  test-value: 4782969;
+  test-value: 2187.0;
+  test-value: 168.48679;
+  test-value: 46.76537;
+  test-value: 21.67402;
+  test-value: 12.98025;
+  test-value: 9;
+  test-value: 6.83852;
+  test-value: 5.52317;
+  test-value: 43046721;
+  test-value: 6561;
+  test-value: 350.46665;
+  test-value: 81.0;
+  test-value: 33.63474;
+  test-value: 18.72075;
+  test-value: 12.31864;
+  test-value: 9;
+  test-value: 7.05043;
+  test-value: 387420489;
+  test-value: 19683;
+  test-value: 729;
+  test-value: 140.29612;
+  test-value: 52.19592;
+  test-value: 27;
+  test-value: 16.861;
+  test-value: 11.84467;
+  test-value: 9; }
+
+extendedSquareRootTest {
+  test-value: 1;
+  test-value: 1.41422;
+  test-value: 1.73205;
+  test-value: 2.0;
+  test-value: 2.23607;
+  test-value: 2.44949;
+  test-value: 2.64575;
+  test-value: 2.82843;
+  test-value: 3.0;
+  test-value: 3.16228;
+  test-value: 3.31662;
+  test-value: 3.4641;
+  test-value: 3.60555;
+  test-value: 3.74166;
+  test-value: 3.87298;
+  test-value: 4.0;
+  test-value: 4.12311;
+  test-value: 4.24264;
+  test-value: 4.3589;
+  test-value: 4.47214;
+  test-value: 4.58258;
+  test-value: 4.69042;
+  test-value: 4.79583;
+  test-value: 4.89898;
+  test-value: 5.0;
+  test-value: 5.09902;
+  test-value: 5.19615;
+  test-value: 5.2915;
+  test-value: 5.38516;
+  test-value: 5.47723;
+  test-value: 5.56776;
+  test-value: 5.65685;
+  test-value: 5.74456;
+  test-value: 5.83095;
+  test-value: 5.91608;
+  test-value: 6.0;
+  test-value: 6.08276;
+  test-value: 6.16441;
+  test-value: 6.245;
+  test-value: 6.32456;
+  test-value: 6.40312;
+  test-value: 6.48074;
+  test-value: 6.55744;
+  test-value: 6.63325;
+  test-value: 6.7082;
+  test-value: 6.78233;
+  test-value: 6.85565;
+  test-value: 6.9282;
+  test-value: 7.0;
+  test-value: 7.07107;
+  test-value: 7.14143;
+  test-value: 7.2111;
+  test-value: 7.28011;
+  test-value: 7.34847;
+  test-value: 7.4162;
+  test-value: 7.48332;
+  test-value: 7.54984;
+  test-value: 7.61577;
+  test-value: 7.68115;
+  test-value: 7.74597;
+  test-value: 7.81025;
+  test-value: 7.87401;
+  test-value: 7.93725;
+  test-value: 8.0;
+  test-value: 8.06226;
+  test-value: 8.12404;
+  test-value: 8.18535;
+  test-value: 8.24621;
+  test-value: 8.30662;
+  test-value: 8.3666;
+  test-value: 8.42615;
+  test-value: 8.48528;
+  test-value: 8.544;
+  test-value: 8.60233;
+  test-value: 8.66025;
+  test-value: 8.7178;
+  test-value: 8.77496;
+  test-value: 8.83176;
+  test-value: 8.88819;
+  test-value: 8.94427;
+  test-value: 9.0;
+  test-value: 9.05539;
+  test-value: 9.11043;
+  test-value: 9.16515;
+  test-value: 9.21954;
+  test-value: 9.27362;
+  test-value: 9.32738;
+  test-value: 9.38083;
+  test-value: 9.43398;
+  test-value: 9.48683;
+  test-value: 9.53939;
+  test-value: 9.59166;
+  test-value: 9.64365;
+  test-value: 9.69536;
+  test-value: 9.74679;
+  test-value: 9.79796;
+  test-value: 9.84886;
+  test-value: 9.89949;
+  test-value: 9.94987;
+  test-value: 10.0;
+  test-value: 10.04988;
+  test-value: 10.0995;
+  test-value: 10.14889;
+  test-value: 10.19804;
+  test-value: 10.24695;
+  test-value: 10.29563;
+  test-value: 10.34408;
+  test-value: 10.3923;
+  test-value: 10.44031;
+  test-value: 10.48809;
+  test-value: 10.53565;
+  test-value: 10.58301;
+  test-value: 10.63015;
+  test-value: 10.67708;
+  test-value: 10.72381;
+  test-value: 10.77033;
+  test-value: 10.81665;
+  test-value: 10.86278;
+  test-value: 10.90871;
+  test-value: 10.95445;
+  test-value: 11.0;
+  test-value: 11.04536;
+  test-value: 11.09054;
+  test-value: 11.13553;
+  test-value: 11.18034;
+  test-value: 11.22497;
+  test-value: 11.26943;
+  test-value: 11.31371;
+  test-value: 11.35782;
+  test-value: 11.40175;
+  test-value: 11.44552;
+  test-value: 11.48913;
+  test-value: 11.53256;
+  test-value: 11.57584;
+  test-value: 11.61895;
+  test-value: 11.6619;
+  test-value: 11.7047;
+  test-value: 11.74734;
+  test-value: 11.78983;
+  test-value: 11.83216;
+  test-value: 11.87434;
+  test-value: 11.91638;
+  test-value: 11.95826;
+  test-value: 12.0;
+  test-value: 12.04159;
+  test-value: 12.08305;
+  test-value: 12.12436;
+  test-value: 12.16553;
+  test-value: 12.20656;
+  test-value: 12.24745;
+  test-value: 12.28821;
+  test-value: 12.32883;
+  test-value: 12.36932;
+  test-value: 12.40967;
+  test-value: 12.4499;
+  test-value: 12.49;
+  test-value: 12.52996;
+  test-value: 12.56981;
+  test-value: 12.60952;
+  test-value: 12.64911;
+  test-value: 12.68858;
+  test-value: 12.72792;
+  test-value: 12.76715;
+  test-value: 12.80625;
+  test-value: 12.84523;
+  test-value: 12.8841;
+  test-value: 12.92285;
+  test-value: 12.96148;
+  test-value: 13.0;
+  test-value: 13.0384;
+  test-value: 13.0767;
+  test-value: 13.11488;
+  test-value: 13.15295;
+  test-value: 13.19091;
+  test-value: 13.22876;
+  test-value: 13.2665;
+  test-value: 13.30413;
+  test-value: 13.34166;
+  test-value: 13.37909;
+  test-value: 13.41641;
+  test-value: 13.45362;
+  test-value: 13.49074;
+  test-value: 13.52775;
+  test-value: 13.56466;
+  test-value: 13.60147;
+  test-value: 13.63818;
+  test-value: 13.67479;
+  test-value: 13.71131;
+  test-value: 13.74773;
+  test-value: 13.78405;
+  test-value: 13.82028;
+  test-value: 13.85641;
+  test-value: 13.89244;
+  test-value: 13.92839;
+  test-value: 13.96424;
+  test-value: 14.0;
+  test-value: 14.03567;
+  test-value: 14.07125;
+  test-value: 14.10674;
+  test-value: 14.14214;
+  test-value: 14.17745;
+  test-value: 14.21267;
+  test-value: 14.24781;
+  test-value: 14.28286;
+  test-value: 14.31782;
+  test-value: 14.3527;
+  test-value: 14.3875;
+  test-value: 14.42221;
+  test-value: 14.45683;
+  test-value: 14.49138;
+  test-value: 14.52584;
+  test-value: 14.56022;
+  test-value: 14.59452;
+  test-value: 14.62874;
+  test-value: 14.66288;
+  test-value: 14.69694;
+  test-value: 14.73092;
+  test-value: 14.76482;
+  test-value: 14.79865;
+  test-value: 14.8324;
+  test-value: 14.86607;
+  test-value: 14.89966;
+  test-value: 14.93318;
+  test-value: 14.96663;
+  test-value: 15.0;
+  test-value: 15.0333;
+  test-value: 15.06652;
+  test-value: 15.09967;
+  test-value: 15.13275;
+  test-value: 15.16575;
+  test-value: 15.19868;
+  test-value: 15.23155;
+  test-value: 15.26434;
+  test-value: 15.29706;
+  test-value: 15.32971;
+  test-value: 15.36229;
+  test-value: 15.3948;
+  test-value: 15.42725;
+  test-value: 15.45962;
+  test-value: 15.49193;
+  test-value: 15.52417;
+  test-value: 15.55635;
+  test-value: 15.58846;
+  test-value: 15.6205;
+  test-value: 15.65248;
+  test-value: 15.68439;
+  test-value: 15.71623;
+  test-value: 15.74802;
+  test-value: 15.77973;
+  test-value: 15.81139;
+  test-value: 15.84298;
+  test-value: 15.87451;
+  test-value: 15.90597;
+  test-value: 15.93738;
+  test-value: 15.96872; }
+
+extendedCubeRootTest {
+  test-value: 1;
+  test-value: 1.25992;
+  test-value: 1.44225;
+  test-value: 1.5874;
+  test-value: 1.70998;
+  test-value: 1.81712;
+  test-value: 1.91293;
+  test-value: 2.0;
+  test-value: 2.08008;
+  test-value: 2.15443;
+  test-value: 2.22398;
+  test-value: 2.28943;
+  test-value: 2.35133;
+  test-value: 2.41014;
+  test-value: 2.46621;
+  test-value: 2.51984;
+  test-value: 2.57128;
+  test-value: 2.62074;
+  test-value: 2.6684;
+  test-value: 2.71442;
+  test-value: 2.75892;
+  test-value: 2.80204;
+  test-value: 2.84387;
+  test-value: 2.8845;
+  test-value: 2.92402;
+  test-value: 2.9625;
+  test-value: 3.0;
+  test-value: 3.03659;
+  test-value: 3.07232;
+  test-value: 3.10723;
+  test-value: 3.14138;
+  test-value: 3.1748;
+  test-value: 3.20753;
+  test-value: 3.23961;
+  test-value: 3.27107;
+  test-value: 3.30193;
+  test-value: 3.33222;
+  test-value: 3.36198;
+  test-value: 3.39121;
+  test-value: 3.41995;
+  test-value: 3.44822;
+  test-value: 3.47603;
+  test-value: 3.5034;
+  test-value: 3.53035;
+  test-value: 3.55689;
+  test-value: 3.58305;
+  test-value: 3.60883;
+  test-value: 3.63424;
+  test-value: 3.65931;
+  test-value: 3.68403;
+  test-value: 3.70843;
+  test-value: 3.73251;
+  test-value: 3.75629;
+  test-value: 3.77976;
+  test-value: 3.80295;
+  test-value: 3.82586;
+  test-value: 3.8485;
+  test-value: 3.87088;
+  test-value: 3.893;
+  test-value: 3.91487;
+  test-value: 3.9365;
+  test-value: 3.95789;
+  test-value: 3.97906;
+  test-value: 4.0;
+  test-value: 4.02073;
+  test-value: 4.04124;
+  test-value: 4.06155;
+  test-value: 4.08166;
+  test-value: 4.10157;
+  test-value: 4.12129;
+  test-value: 4.14082;
+  test-value: 4.16017;
+  test-value: 4.17934;
+  test-value: 4.19834;
+  test-value: 4.21716;
+  test-value: 4.23582;
+  test-value: 4.25432;
+  test-value: 4.27266;
+  test-value: 4.29084;
+  test-value: 4.30887;
+  test-value: 4.32675;
+  test-value: 4.34448;
+  test-value: 4.36207;
+  test-value: 4.37952;
+  test-value: 4.39683;
+  test-value: 4.414;
+  test-value: 4.43105;
+  test-value: 4.44796;
+  test-value: 4.46475;
+  test-value: 4.4814;
+  test-value: 4.49794;
+  test-value: 4.51436;
+  test-value: 4.53065;
+  test-value: 4.54684;
+  test-value: 4.5629;
+  test-value: 4.57886;
+  test-value: 4.5947;
+  test-value: 4.61044;
+  test-value: 4.62607;
+  test-value: 4.64159;
+  test-value: 4.65701;
+  test-value: 4.67233;
+  test-value: 4.68755;
+  test-value: 4.70267;
+  test-value: 4.71769;
+  test-value: 4.73262;
+  test-value: 4.74746;
+  test-value: 4.7622;
+  test-value: 4.77686;
+  test-value: 4.79142;
+  test-value: 4.8059;
+  test-value: 4.82028;
+  test-value: 4.83459;
+  test-value: 4.84881;
+  test-value: 4.86294;
+  test-value: 4.877;
+  test-value: 4.89097;
+  test-value: 4.90487;
+  test-value: 4.91868;
+  test-value: 4.93242;
+  test-value: 4.94609;
+  test-value: 4.95968;
+  test-value: 4.97319;
+  test-value: 4.98663;
+  test-value: 5.0;
+  test-value: 5.0133;
+  test-value: 5.02653;
+  test-value: 5.03968;
+  test-value: 5.05277;
+  test-value: 5.0658;
+  test-value: 5.07875;
+  test-value: 5.09164;
+  test-value: 5.10447;
+  test-value: 5.11723;
+  test-value: 5.12993;
+  test-value: 5.14256;
+  test-value: 5.15514;
+  test-value: 5.16765;
+  test-value: 5.1801;
+  test-value: 5.19249;
+  test-value: 5.20483;
+  test-value: 5.2171;
+  test-value: 5.22932;
+  test-value: 5.24148;
+  test-value: 5.25359;
+  test-value: 5.26564;
+  test-value: 5.27763;
+  test-value: 5.28957;
+  test-value: 5.30146;
+  test-value: 5.31329;
+  test-value: 5.32507;
+  test-value: 5.3368;
+  test-value: 5.34848;
+  test-value: 5.36011;
+  test-value: 5.37169;
+  test-value: 5.38321;
+  test-value: 5.39469;
+  test-value: 5.40612;
+  test-value: 5.4175;
+  test-value: 5.42884;
+  test-value: 5.44012;
+  test-value: 5.45136;
+  test-value: 5.46256;
+  test-value: 5.4737;
+  test-value: 5.48481;
+  test-value: 5.49586;
+  test-value: 5.50688;
+  test-value: 5.51785;
+  test-value: 5.52877;
+  test-value: 5.53966;
+  test-value: 5.5505;
+  test-value: 5.5613;
+  test-value: 5.57205;
+  test-value: 5.58277;
+  test-value: 5.59344;
+  test-value: 5.60408;
+  test-value: 5.61467;
+  test-value: 5.62523;
+  test-value: 5.63574;
+  test-value: 5.64622;
+  test-value: 5.65665;
+  test-value: 5.66705;
+  test-value: 5.67741;
+  test-value: 5.68773;
+  test-value: 5.69802;
+  test-value: 5.70827;
+  test-value: 5.71848;
+  test-value: 5.72865;
+  test-value: 5.73879;
+  test-value: 5.7489;
+  test-value: 5.75897;
+  test-value: 5.769;
+  test-value: 5.779;
+  test-value: 5.78896;
+  test-value: 5.79889;
+  test-value: 5.80879;
+  test-value: 5.81865;
+  test-value: 5.82848;
+  test-value: 5.83827;
+  test-value: 5.84804;
+  test-value: 5.85777;
+  test-value: 5.86746;
+  test-value: 5.87713;
+  test-value: 5.88677;
+  test-value: 5.89637;
+  test-value: 5.90594;
+  test-value: 5.91548;
+  test-value: 5.92499;
+  test-value: 5.93447;
+  test-value: 5.94392;
+  test-value: 5.95334;
+  test-value: 5.96273;
+  test-value: 5.97209;
+  test-value: 5.98142;
+  test-value: 5.99073;
+  test-value: 6.0;
+  test-value: 6.00925;
+  test-value: 6.01846;
+  test-value: 6.02765;
+  test-value: 6.03681;
+  test-value: 6.04594;
+  test-value: 6.05505;
+  test-value: 6.06413;
+  test-value: 6.07318;
+  test-value: 6.0822;
+  test-value: 6.0912;
+  test-value: 6.10017;
+  test-value: 6.10911;
+  test-value: 6.11803;
+  test-value: 6.12693;
+  test-value: 6.13579;
+  test-value: 6.14463;
+  test-value: 6.15345;
+  test-value: 6.16224;
+  test-value: 6.17101;
+  test-value: 6.17975;
+  test-value: 6.18846;
+  test-value: 6.19715;
+  test-value: 6.20582;
+  test-value: 6.21447;
+  test-value: 6.22308;
+  test-value: 6.23168;
+  test-value: 6.24025;
+  test-value: 6.2488;
+  test-value: 6.25732;
+  test-value: 6.26583;
+  test-value: 6.27431;
+  test-value: 6.28276;
+  test-value: 6.29119;
+  test-value: 6.29961;
+  test-value: 6.30799;
+  test-value: 6.31636;
+  test-value: 6.3247;
+  test-value: 6.33303;
+  test-value: 6.34133; }
