@@ -126,8 +126,16 @@
   @else { @return false; }
 }
 
-@function nthroot($num,$n: 2) {
-  $neg: $n < 0;
+@function nthroot($num,$n) {
+  @if $num == 0 {
+    @return 0;
+  }
+  @if $n == 0 {
+    @return 1;
+  }
+
+  $negNum: $n < 0;
+  $negRoot: $num < 0;
 
   $num: abs($num);
   $value: $num;
@@ -136,15 +144,19 @@
     $value: (1 / $n) * ( ( ($n - 1) * $value) + ($num / exponent($value,$n - 1)) );
     $testValue: exponent($value, $n);
   }
-  @if ($neg) {
-    @return 1/$value;
+  @if ($negNum) {
+    $value: 1/$value;
+  }
+
+  @if ($negRoot) {
+    @return $value * -1;
   } @else {
     @return $value;
   }
 }
 
 @function sqrt($num) {
-  @return nthroot($num);
+  @return nthroot($num, 2);
 }
 
 @function cubert($num) {
@@ -153,9 +165,6 @@
 
 @function exponent($num,$expN,$expD: 1) {
   $value: $num;
-  $neg: false;
-  $expDCalc: false;
-
   $neg: $expN < 0;
   $expN: abs($expN);
 
